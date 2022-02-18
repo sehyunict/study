@@ -27,6 +27,7 @@
 - Array.prototype.pop
 - Array.prototype.unshift
 - Array.prototype.shift
+- Array.prototype.fill
 
 <br>
 
