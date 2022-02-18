@@ -27,7 +27,9 @@
 - Array.prototype.pop
 - Array.prototype.unshift
 - Array.prototype.shift
+
 <br>
+
 - Array.prototype.forEach
 - Array.prototype.find
 - Array.prototype.filter
