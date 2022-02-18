@@ -19,6 +19,15 @@
 
 # Array prototype ( Stream )
 
+- Array.prototype.indexOf
+- Array.prototype.slice
+- Array.prototype.splice
+- Array.prototype.join
+- Array.prototype.push
+- Array.prototype.pop
+- Array.prototype.unshift
+- Array.prototype.shift
+
 - Array.prototype.forEach
 - Array.prototype.find
 - Array.prototype.filter
