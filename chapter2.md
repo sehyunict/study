@@ -1,4 +1,6 @@
-# 데이터 타입
+# chapter2
+
+#### 데이터 타입
 
 - 기본타입 / 참조타입
 - 메모리 사용 영역 `java`
@@ -6,7 +8,7 @@
 
 <br>
 
-# 변수
+#### 변수
 
 - 변수란?
 - 변수 선언 방법
@@ -17,7 +19,7 @@
 
 <br>
 
-# Array prototype ( Stream )
+#### Array prototype ( Stream )
 
 - Array.prototype.indexOf
 - Array.prototype.slice
