@@ -1,6 +1,8 @@
 # chapter1
 
 #### 깃허브
+"ddd"
+
 
 - 형상관리란?
 - 깃과 깃허브의 차이?
@@ -9,6 +11,7 @@
 - Fork, Pull Request
 - Pull, Push, Commit, Merge, Branch
 - Issue, Projects, Tag, Release
+- .gitignore
 
 <br>
 
