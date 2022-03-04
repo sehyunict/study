@@ -92,14 +92,14 @@ public static void main (String[] args) {
 - img tag 사용, 크기 지정
  
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBSxtd13l67qMFF_fetV-MywM1YN1qdeeLyg&usqp=CAU" width="300px">
-```html
+``` html
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBSxtd13l67qMFF_fetV-MywM1YN1qdeeLyg&usqp=CAU" width="300px">
 ```
 <br>
 
 - img tag 사용, 크기 지정, 가운데 정렬
 <p align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBSxtd13l67qMFF_fetV-MywM1YN1qdeeLyg&usqp=CAU" width="300px"
-```html
+``` html
 <p align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBSxtd13l67qMFF_fetV-MywM1YN1qdeeLyg&usqp=CAU" width="300px"
 ```
 <br>
