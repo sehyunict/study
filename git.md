@@ -101,7 +101,10 @@
 >>> * lightweight tag : tag이름 정보만을 가짐
 >>> * annotated tag : 이름, 태그에 대한 설명, 서명 등의 정보를 포함.
 >>> * 일반적으로 release branch에 사용하는 태그는 `annotated tag` 이고,
->>>   feature(topic) branch에는 `lightweight tag`를 사용한다.
+>>>   feature(topic) branch에는 `lightweight tag`를 사용한다. <br>
+>
+> * `Projects`
+>	* 프로젝트는 작업 현황과 진행도를 
 
 - 형상관리란?
 - 깃과 깃허브의 차이?
