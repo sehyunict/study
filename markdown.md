@@ -16,12 +16,12 @@
 ### 1. 제목
 
 `h1-h6 : #-######`
-<br>
+<br><br>
 
 ### 2. 인용문 - BlockQuote
 
 `>,>>,>>>`
-<br>
+<br><br>
 
 ### 3. 목록 - List
 
@@ -43,7 +43,7 @@
 
 `[link keyword][id][id]:URL "Optional Title here"`
 [googleLink] : [https://www.google.com](https://www.google.com/) "GoGoogle"
-<br>
+<br><br>
 
 ### 4. 글씨 강조 - Emphasis
 
@@ -111,7 +111,7 @@ public static void main (String[] args) {
 
 ### 7. 줄바꿈 - Line Breaks
 ##### 마크다운 문법에서는 엔터를 입력해도 개행되지 않는다. (엔터키 2번 입력은 단락을 나누는 의미)
-##### 공백 두번을 입력하고 엔터로 줄바꿈 하거나 <br>테그 사용
+##### 공백 두번을 입력하고 엔터로 줄바꿈 하거나 `<br>`테그 사용
   
 
 ### 8. 수평선 - Horizontal Rule
@@ -122,13 +122,13 @@ public static void main (String[] args) {
 
 ### 9. 표 - Table
 ###### 본문에 테이블 삽입 가능
-###### 헤더 셀을 구분할 때 3개 이상의 -(hyphen/dash) 기호가 필요하다. 
-###### 헤더 셀을 구분하면서 :(colons) 기호로 셀(열/칸) 안에 내용을 정렬할 수 있다.
+- 헤더 셀을 구분할 때 3개 이상의 -(hyphen/dash) 기호가 필요하다. 
+- 헤더 셀을 구분하면서 :(colons) 기호로 셀(열/칸) 안에 내용을 정렬할 수 있다.
 
 <br>
 
-월:일:요일
----:---:---:
-`3` :4일:금요일
-`3` :5일:토요일
-`3` :6일:일요일
+|월|일|요일|
+|---|:---:|---:|
+|3|4일|금요일|
+|3|5일|토요일|
+|3|6일|일요일|
