@@ -57,6 +57,7 @@ README파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서
 `<u>content</u>`
 
 <br>
+
 ### 5. 코드 - Code
 
 - 인라인(inline) 코드 강조
@@ -80,5 +81,6 @@ public static void main (String[] args) {
 #### ![대체텍스트](이미지URL or Path "이미지설명")
 #### 사이즈 및 정렬을 조정하기 위해서는 HTML <img> Tag를 이용하면 된다. Link와 문법이 흡사함. 단, 앞에 !을 추가
 <br>
+
 ##### 예시 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBSxtd13l67qMFF_fetV-MywM1YN1qdeeLyg&usqp=CAU" width="300px">
