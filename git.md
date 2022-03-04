@@ -69,7 +69,7 @@
 > * `Fork`
 >	* 다른 사람의 Github repository에서 어떤 부분을 수정하거나 추가 기능을 넣고 싶을 때, <br>
 >	  해당 repository를 내 Github repository로 그대로 복제하는 기능
->	* fork한 저장소는 원본과 연결되어 있따. : original repository에 어떤 변화가 생기면 forked 된 repository로 반영할 수 있도록 <br>
+>	* fork한 저장소는 원본과 연결되어 있다. :: original repository에 어떤 변화가 생기면 forked 된 repository로 반영할 수 있도록 <br>
 >	  -> 이때 필요한 것이 `fetch`나 `rebase`임.
 >
 > * `Release`
@@ -104,10 +104,15 @@
 >>>   feature(topic) branch에는 `lightweight tag`를 사용한다. <br>
 >
 > * `Projects`
->	* 프로젝트는 작업 현황과 진행도를 
+>	* 프로젝트는 작업 현황과 진행도를 볼 수 있는 메뉴이다.
+>	* 이슈, PR(Pull Request)들을 하나의 작업으로 구분해 그 작업이 현재 어느정도 진행되었는지 확인할 수 있다.
+>>> ###### 기능
+>>> * To Do : 해야 할 작업
+>>> * In Progress : 진행 중인 작업
+>>> * Done : 완료된 작업 <br>
+>
 
 - 형상관리란?
 - 깃과 깃허브의 차이?
 - 깃허브란?
 - 깃허브 사용방법
-- Projects
