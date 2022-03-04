@@ -138,7 +138,7 @@ public static void main (String[] args) {
 <br>
 
 ###### 연습
-<img src="http://nearbyinc.cafe24.com/resources/image/app_icon.png" width="150px">(http://nearbyinc.cafe24.com)
+<a href="http://nearbyinc.cafe24.com"><img src="http://nearbyinc.cafe24.com/resources/image/app_icon.png" width="150px"></a>
 
 
 ### 8. 줄바꿈 - Line Breaks
