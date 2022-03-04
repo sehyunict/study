@@ -3,12 +3,13 @@
 ## 마크다운이란?
 
 > 
-> <br>
+>
 > 마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다.<br>
 > README파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다.<br>
 > 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.
-> <br>
+>
 > 
+<br>
 
 ## 마크다운 작성법?
 
@@ -82,10 +83,29 @@ public static void main (String[] args) {
 <br>
 
 ### 6. 이미지 - Image
-#### 본문에 이미지를 삽입할 수 있다.
-#### ![대체텍스트](이미지URL or Path "이미지설명")
-#### 사이즈 및 정렬을 조정하기 위해서는 HTML <img> Tag를 이용하면 된다. Link와 문법이 흡사함. 단, 앞에 !을 추가
+###### -- 본문에 이미지를 삽입할 수 있다.
+###### -- ![대체텍스트](이미지URL or Path "이미지설명")
+###### -- 사이즈 및 정렬을 조정하기 위해서는 HTML <img> Tag를 이용하면 된다. Link와 문법이 흡사함. 단, 앞에 !을 추가
 <br>
 
 ##### 예시 
+- img tag 사용, 크기 지정
+ 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBSxtd13l67qMFF_fetV-MywM1YN1qdeeLyg&usqp=CAU" width="300px">
+```html
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBSxtd13l67qMFF_fetV-MywM1YN1qdeeLyg&usqp=CAU" width="300px">
+```
+<br>
+
+- img tag 사용, 크기 지정, 가운데 정렬
+<p align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBSxtd13l67qMFF_fetV-MywM1YN1qdeeLyg&usqp=CAU" width="300px"
+```html
+<p align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBSxtd13l67qMFF_fetV-MywM1YN1qdeeLyg&usqp=CAU" width="300px"
+```
+<br>
+
+- img에 링크 걸기 
+[![대체 텍스트](http://www.dailyimpact.co.kr/news/photo/201802/47635_6097_946.png)](https://www.google.com)
+``` textplain
+[![대체 텍스트](http://www.dailyimpact.co.kr/news/photo/201802/47635_6097_946.png)](https://www.google.com)
+```
