@@ -56,7 +56,7 @@
 > * `Fork`
 >	* 다른 사람의 Github repository에서 어떤 부분을 수정하거나 추가 기능을 넣고 싶을 때, <br>
 >	  해당 repository를 내 Github repository로 그대로 복제하는 기능
->	* for한 저장소는 원본과 연결되어 있따. : original repository에 어떤 변화가 생기면 forked 된 repository로 반영할 수 있도록 <br>
+>	* fork한 저장소는 원본과 연결되어 있따. : original repository에 어떤 변화가 생기면 forked 된 repository로 반영할 수 있도록 <br>
 >	  -> 이때 필요한 것이 `fetch`나 `rebase`임.
 
 - 형상관리란?
