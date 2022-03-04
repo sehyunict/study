@@ -126,7 +126,7 @@ public static void main (String[] args) {
 <br>
 
 - img tag 사용, 크기 지정, 가운데 정렬
-<p align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBSxtd13l67qMFF_fetV-MywM1YN1qdeeLyg&usqp=CAU" width="300px"
+<p align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBSxtd13l67qMFF_fetV-MywM1YN1qdeeLyg&usqp=CAU" width="300px">
 <br>
 
 - img에 링크 걸기 
@@ -136,6 +136,10 @@ public static void main (String[] args) {
 ```
 
 <br>
+
+###### 연습
+<img src="http://nearbyinc.cafe24.com/resources/image/app_icon.png" width="150px">(http://nearbyinc.cafe24.com)
+
 
 ### 8. 줄바꿈 - Line Breaks
 ##### 마크다운 문법에서는 엔터를 입력해도 개행되지 않는다. (엔터키 2번 입력은 단락을 나누는 의미)
