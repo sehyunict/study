@@ -66,9 +66,11 @@
 <br>
 
 [Nearby](http://nearbyinc.cafe24.com)
+-- []안에 보이고 싶은 문구를 넣고 ()안에 해당 글을 덮을 링크를 쓴다
 <br>
 
 <http://nearbyinc.cafe24.com>
+-- <>을 작성하여 전체를 보여준다.
 
 
 <br><br>
