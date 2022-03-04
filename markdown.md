@@ -65,7 +65,7 @@
 [NearBy] : [http://nearbyinc.cafe24.com](http://nearbyinc.cafe24.com) "NearBy 바로가기"
 <br>
 
-(http://nearbyinc.cafe24.com)
+[Nearby](http://nearbyinc.cafe24.com)
 <br>
 
 <http://nearbyinc.cafe24.com>
