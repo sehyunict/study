@@ -50,12 +50,20 @@
 >>> 즉, git clone은 프로젝트에 처음 투일될 때 사용되어야 하는 명령!
 >>> 반면, git pull 명령은 원격 저장소의 내용을 가져와서 현재 브랜치와 병합(merge)까지 해주기 때문에, 
 >>> 기존에 작업했던 내용은 유지하면서 최신 코드로 업데이트 할 수 있다.
+>>> git pull 명령은 병합과정도 포함되어 있기 때문에, pull을 하기 전에 commit을 하지 않으면 덮어쓰기 에러가 발생할 수 있다.
+>>> 그러므로 기존 작업에 대해 commit을 미리 해두고 pull을 수행하도록 하자.
+>
+> * `Fork`
+>	* 다른 사람의 Github repository에서 어떤 부분을 수정하거나 추가 기능을 넣고 싶을 때, <br>
+>	  해당 repository를 내 Github repository로 그대로 복제하는 기능
+>	* for한 저장소는 원본과 연결되어 있따. : original repository에 어떤 변화가 생기면 forked 된 repository로 반영할 수 있도록 <br>
+>	  -> 이때 필요한 것이 `fetch`나 `rebase`임.
 
 - 형상관리란?
 - 깃과 깃허브의 차이?
 - 깃허브란?
 - 깃허브 사용방법
 - Fork, Pull Request
-- Pull, Push, 
+ Push, 
 - Issue, Projects, Tag, Release
 - .gitignore
