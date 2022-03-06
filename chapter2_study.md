@@ -81,7 +81,7 @@
 > 'I?doubt?that'.split('?');
 > 'Why would you doubt my word?'.split('');
 > 'You hAve BeEn DiSHonest'.toLowerCase();
-> 'no wAy!'.toUpperCase(); ```
+> 'no wAy!'.toUpperCase();
 > 
 > <br>
 >
