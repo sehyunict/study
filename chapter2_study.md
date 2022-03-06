@@ -9,13 +9,13 @@
 > ##### `Data Type - java`
 > ######기본타입(primitive type)
 > ** 변수에 실제 값들을 저장함.
->	* 정수 타입 (byte, short, int, long)
+>	* 정수 타입 (byte, short, int, long) <br>
 		|TYPE|SIZE|RANGE|Default Value|
-		|---:|:---:|:---:|:---:|
-		|byte|1byte|-128~127|0|
-		|short|2byte|-32768~32767|0|
-		|int|4byte|-2147483648~2147483647|0|
-		|long|8byte|-9223372036854775808~9223372036854775807|0|
+		|:---:|:---:|:---:|:---:|
+		|byte|1byte|`-128~127`|0|
+		|short|2byte|`-32768~32767`|0|
+		|int|4byte|`-2147483648~2147483647`|0|
+		|long|8byte|`-9223372036854775808~9223372036854775807`|0|
 >	* 실수 타입 (float, double)
 >	* 논리 타입 (boolean) - true or false
 >	* 문자 타입 (char)
