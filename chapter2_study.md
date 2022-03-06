@@ -107,11 +107,15 @@
 >> | 객체                 |       모든 객체                           | null        |
 >> | Undefined |           해당없음                   | undefined   |
 >
+><br>
 >
 >> #### 4. null : 의도적으로 변수에 값이 없다는 것을 명시할 때 사용
->> **JavaScript는 대소문자를 구별하므로 null은 Null, NULL 등과 다르다.** <br>
->> **타입을 나타내는 문자열을 반환하는 `typeOf` 연산자로 null 값을 연산해보면 null이 아닌 object가 나온다.** <br>
->> **따라서 null타입을 확인할 때는 `typeOf`연산자 대신 일치 연산자(===)를 사용하여야 한다.** <br>
+>> ```textplain
+>> JavaScript는 대소문자를 구별하므로 null은 Null, NULL 등과 다르다.
+>> 타입을 나타내는 문자열을 반환하는 `typeOf` 연산자로 null 값을 연산해보면 null이 아닌 object가 나온다.
+>> 따라서 null타입을 확인할 때는 `typeOf`연산자 대신 일치 연산자(===)를 사용하여야 한다.
+>> ```
+>>
 >> ```javascript
 >>	var foo = null;
 >>	console.log(typeof foo === null); // false
