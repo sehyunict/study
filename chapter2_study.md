@@ -1,6 +1,9 @@
 ###### Chapter2를 시작하기 전에
 * git desktop과 eclipse 연동이 어려워서 방법 찾음 <br>
 [참고링크](https://sso-feeling.tistory.com/121)
+* markdown 표 생성링크 <br>
+[바로가기](https://www.tablesgenerator.com/markdown_tables)
+<br>
 
 # chapter2
 
@@ -12,13 +15,16 @@
 > <br>
 >
 >	#######정수 타입 (byte, short, int, long)
+
 <br>
+
 | **TYPE** | **SIZE** | **RANGE**                                | **기본값** |
 |----------|----------|------------------------------------------|------------------|
 | byte     | 1byte    | -128~127                                 | 0                |
 | short    | 2byte    | -32768~32767                             | 0                |
 | int      | 4byte    | -2147483648~2147483647                   | 0                |
 | long     | 8byte    | -9223372036854775808~9223372036854775807 | 0                |
+
 > <br>
 >	####### 실수 타입 (float, double)
 >	####### 논리 타입 (boolean) - true or false
