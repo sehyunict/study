@@ -25,9 +25,9 @@
 >
 > <br>
 >
->	####### 실수 타입 (float, double)
->	####### 논리 타입 (boolean) - true or false
->	####### 문자 타입 (char)
+> ###### 실수 타입 (float, double)
+> ###### 논리 타입 (boolean) - true or false
+> ###### 문자 타입 (char)
 >
 > **참조타입(reference type)**
 >	* 배열
