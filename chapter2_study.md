@@ -7,8 +7,8 @@
 > ## 데이터 타입
 > #### 기본타입 / 참조타입
 > ##### `Data Type - java`
-> ######기본타입(primitive type)
-> ** 변수에 실제 값들을 저장함.**
+> ###### 기본타입(primitive type) <br>
+> ** 변수에 실제 값들을 저장함.** <br>
 >	** 정수 타입 (byte, short, int, long)** <br>
 		|TYPE|SIZE|RANGE|Default Value|
 		|---|-----|----------------------------------------|---|
