@@ -39,8 +39,8 @@
 >>| char     | 2byte    | 0 ~ 65535 | \u0000           |
 >>
 > <br>
->>
-> ##### * 참조타입(reference type)
+>
+>> ##### * 참조타입(reference type) <br>
 >>	* 배열 <br>
 >>	* 열거 타입 <br>
 >>	* 클래스 <br>
