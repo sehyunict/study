@@ -8,22 +8,19 @@
 # chapter2
 
 > ## 데이터 타입
+> **프로그래밍 언어에서 사용할 수 있는 데이터(숫자, 문자열, 불리언 등)의 종류
+>
+> #### Data Type - java
 > #### 기본타입 / 참조타입
-> ##### `Data Type - java`
-> ###### 기본타입(primitive type) : ->변수에 실제 값들을 저장함 
+> ###### 기본타입(primitive type) : 변수에 실제 값들을 저장함 
 >
-> <br>
->
-> ###### 정수 타입 (byte, short, int, long) <br>
->
+> ###### 정수 타입 (byte, short, int, long)
 >| **TYPE** | **SIZE** | **RANGE**                                | **기본값** |
 >|----------|----------|------------------------------------------|------------------|
 >| byte     | 1byte    | -128~127                                 | 0                |
 >| short    | 2byte    | -32768~32767                             | 0                |
 >| int      | 4byte    | -2147483648~2147483647                   | 0                |
 >| long     | 8byte    | -9223372036854775808~9223372036854775807 | 0                |
->
-> <br>
 >
 > ###### 실수 타입 (float, double)
 >| **TYPE** | **SIZE** | **RANGE**                                | **기본값** | 
@@ -41,13 +38,34 @@
 >|----------|----------|-----------|------------------|
 >| char     | 2byte    | 0 ~ 65535 | \u0000           |
 >
+> <br>
+>
 > **참조타입(reference type)**
 >	* 배열
 >	* 열거 타입
 >	* 클래스
 >	* 인터페이스
-<br>
-
+>
+> <br>
+>
+> #### Data Type - JavaScript
+> #### 원시타입 / 객체타입
+> ###### 원시타입 (primitive data type) : 원시 타입의 값은 변결 불가능한 값(immutable value)이며 pass-by-value(값에 의한 전달)이다.
+> 
+> ##### Number(숫자형) : 숫자를 이용하여 덧셈/뺄셈/곱셈/나눗셈 등의 연산을 할 수 있다.
+> ######NaN : Not A Number
+> * 유효하지 않은 숫자 연산을 실행했을 때 생성
+> * 만약 어떤 값이 NaN인지 판별하고 싶다면 isNaN이라는 함수를 사용하여 판별 가능
+> 	``` javascript
+>		var d = NaN;
+> 		var e = isNaN;
+>		console.log(e); //true ```
+> 
+> ##### String
+> ##### Boolean
+> ##### null
+> ##### undefined
+> ##### symbol (ES6에서 추가됨)
 #### 메모리 사용 영역 `java`
 #### wrapper class `java`
 
