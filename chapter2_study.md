@@ -61,9 +61,29 @@
 >		var d = NaN;
 > 		var e = isNaN;
 >		console.log(e); //true
+> ###### 숫자 판별하기
+> * typeOf : 어떤 종류의 값인지 판단할 때 사용함
 > 
-> ##### String
-> ##### Boolean
+> ##### String(문자열) : 텍스트 데이터를 나타내는데 사용 <br>
+> * `+` 기호를 사용하여 문자열을 붙일 수 있음.
+> * `==` 또는 `===`을 사용하여 같은 값인지 비교 가능.
+>
+> ###### 문자열 길이
+> `.length`를 이용하여 문자열의 길이에 대한 정보를 알 수 있다. 
+> ###### 문자열 메서드
+> ```javascript
+> '6'.repeat(3);
+> 'hi surim'.includes(' surim');
+> 'what are you doing'.startsWith('what ');
+> 'I am doing FiNe'.endsWith('iNe');
+> 'Are you sure?'.indexOf(' yo');
+> 'Yeah I am sure'.slice(2, 5);
+> 'I?doubt?that'.split('?');
+> 'Why would you doubt my word?'.split('');
+> 'You hAve BeEn DiSHonest'.toLowerCase();
+> 'no wAy!'.toUpperCase(); 
+> 
+> ##### Boolean(논리형) : 논리적 참, 거짓을 나타내는 `true` 또는 `false`
 > ##### null
 > ##### undefined
 > ##### symbol (ES6에서 추가됨)
