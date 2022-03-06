@@ -106,6 +106,7 @@
 >	var foo = null;
 >	console.log(typeof foo === null); // false
 >	console.log(foo === null);		  // true
+> ```
 >
 > #### 5. undefined : 선언 이후 값을 할당하지 않은 변수는 undefined 값을 가진다.
 > **어떤 변수를 만들고 그 값을 정의해 주지 않았을 때나 존재하지 않는 객체 property에 접근할 경우 `undefined`가 반환 됨.**
