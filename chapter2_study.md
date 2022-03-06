@@ -82,7 +82,8 @@
 > 'Why would you doubt my word?'.split('');
 > 'You hAve BeEn DiSHonest'.toLowerCase();
 > 'no wAy!'.toUpperCase();
-> 
+> ```
+>
 > <br>
 >
 > ##### Boolean(논리형) : 논리적 참, 거짓을 나타내는 `true` 또는 `false`
