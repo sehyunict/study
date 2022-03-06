@@ -4,11 +4,30 @@
 
 # chapter2
 
-#### 데이터 타입
+> ## 데이터 타입
+> #### 기본타입 / 참조타입
+> ##### `Data Type - java`
+> ######기본타입(primitive type)
+> ** 변수에 실제 값들을 저장함.
+>	* 정수 타입 (byte, short, int, long)
+		|TYPE|SIZE|RANGE|Default Value|
+		|---:|:---:|:---:|:---:|
+		|byte|1byte|-128~127|0|
+		|short|2byte|-32768~32767|0|
+		|int|4byte|-2147483648~2147483647|0|
+		|long|8byte|-9223372036854775808~9223372036854775807|0|
+>	* 실수 타입 (float, double)
+>	* 논리 타입 (boolean) - true or false
+>	* 문자 타입 (char)
+> **참조타입(reference type)**
+>	* 배열
+>	* 열거 타입
+>	* 클래스
+>	* 인터페이스
+<br>
 
-- 기본타입 / 참조타입
-- 메모리 사용 영역 `java`
-- wrapper class `java`
+#### 메모리 사용 영역 `java`
+#### wrapper class `java`
 
 <br>
 
@@ -43,24 +62,21 @@
 
 <br>
 
-#### Array prototype ( Stream )
-
-- Array.prototype.indexOf
-- Array.prototype.slice
-- Array.prototype.splice
-- Array.prototype.join
-- Array.prototype.push
-- Array.prototype.pop
-- Array.prototype.unshift
-- Array.prototype.shift
-- Array.prototype.fill
-
+>## Array prototype (stream)
+>#### Array.prototype.indexOf
+>#### Array.prototype.slice
+>#### Array.prototype.splice
+>#### Array.prototype.join
+>#### Array.prototype.push
+>#### Array.prototype.pop
+>#### Array.prototype.unshift
+>#### Array.prototype.shift
+>#### Array.prototype.fill
 <br>
-
-- Array.prototype.forEach
-- Array.prototype.find
-- Array.prototype.filter
-- Array.prototype.map
-- Array.prototype.some
-- Array.prototype.every
-- Array.prototype.reduce
+>#### Array.prototype.forEach
+>#### Array.prototype.find
+>#### Array.prototype.filter
+>#### Array.prototype.map
+>#### Array.prototype.some
+>#### Array.prototype.every
+>#### Array.prototype.reduce
