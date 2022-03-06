@@ -57,9 +57,10 @@
 > * 유효하지 않은 숫자 연산을 실행했을 때 생성
 > * 만약 어떤 값이 NaN인지 판별하고 싶다면 isNaN이라는 함수를 사용하여 판별 가능
 > 	``` javascript
+>		// ex)
 >		var d = NaN;
 > 		var e = isNaN;
->		console.log(e); //true ```
+>		console.log(e); //true
 > 
 > ##### String
 > ##### Boolean
