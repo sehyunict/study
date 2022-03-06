@@ -10,7 +10,7 @@
 > ## 데이터 타입
 > **프로그래밍 언어에서 사용할 수 있는 데이터(숫자, 문자열, 불리언 등)의 종류 **
 >
-> #### Data Type - java
+> #### Data Type `java`
 >> #### 기본타입 / 참조타입
 >> ###### 기본타입(primitive type) : 변수에 실제 값들을 저장함 
 >>
@@ -49,7 +49,7 @@
 
 <br>
 
-> #### Data Type - JavaScript
+> #### Data Type `JavaScript`
 > #### 원시타입 / 객체타입
 >> #### 원시타입 (primitive data type) 
 >> : 원시 타입의 값은 변결 불가능한 값(immutable value)이며 pass-by-value(값에 의한 전달)이다.
@@ -206,8 +206,22 @@
 >>
 
 
-#### wrapper class `java`
-
+> ## wrapper class `java`
+> * **기본 자료타입(primitive type)을 객체로 다루기 위해서 사용**하는 클래스들을 래퍼 클래스(wrapper class)라고 한다.
+> * 기본 타입의 값을 내부에 두고 포장하기 때문에 포장 객체라고도 함.
+> * 래퍼 클래스로 감싸고 있는 기본 타입 값은 외부에서 변경할 수 없다.
+>   만약 변경하고 싶다면 새로운 포장 객체를 만들어야 한다.
+>
+> #### 레퍼 클래스의 종류
+> | **기본타입(primitive type)** | **래퍼클래스(wrapper class)** |
+> | byte    | Byte      |
+> | char    | Character |
+> | int     | Integer   |
+> | float   | Float     |
+> | double  | Double    |
+> | boolean | Boolean   |
+> | long    | Long      |
+> | short   | Short     |
 <br>
 
 > ## 변수
