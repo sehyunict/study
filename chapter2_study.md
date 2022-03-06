@@ -7,13 +7,12 @@
 > ## 데이터 타입
 > #### 기본타입 / 참조타입
 > ##### `Data Type - java`
-> ###### 기본타입(primitive type) <br>
-> ** -> 변수에 실제 값들을 저장함.** 
+> ###### 기본타입(primitive type)
+> ** ->변수에 실제 값들을 저장함 ** 
 > <br>
 >
->	**정수 타입 (byte, short, int, long)** <br>
+>	#######정수 타입 (byte, short, int, long)
 <br>
-
 		|**TYPE**|**SIZE**|**RANGE**|**기본값**|
 		|:---:|:---:|:---:|:---:|
 		|byte|1byte|`-128~127`|0|
@@ -21,9 +20,9 @@
 		|int|4byte|`-2147483648~2147483647`|0|
 		|long|8byte|`-9223372036854775808~9223372036854775807`|0|
 > <br>
->	* 실수 타입 (float, double) <br>
->	* 논리 타입 (boolean) - true or false <br>
->	* 문자 타입 (char) <br>
+>	####### 실수 타입 (float, double)
+>	####### 논리 타입 (boolean) - true or false
+>	####### 문자 타입 (char)
 >
 > **참조타입(reference type)**
 >	* 배열
