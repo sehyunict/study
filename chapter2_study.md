@@ -40,7 +40,7 @@
 >>
 > <br>
 >
->> ##### * 참조타입(reference type) <br>
+>> ###### 참조타입(reference type) <br>
 >>	* 배열 <br>
 >>	* 열거 타입 <br>
 >>	* 클래스 <br>
@@ -71,6 +71,7 @@
 >> * typeOf : 어떤 종류의 값인지 판단할 때 사용함
 >>
 >
+>
 >> #### 2. String(문자열) : 텍스트 데이터를 나타내는데 사용 <br>
 >> * `+` 기호를 사용하여 문자열을 붙일 수 있음.
 >> * `==` 또는 `===`을 사용하여 같은 값인지 비교 가능.
@@ -93,6 +94,7 @@
 >
 > <br>
 >
+>
 >> #### 3. Boolean(논리형) : 논리적 참, 거짓을 나타내는 `true` 또는 `false`
 >> **주로 조건문에 자주 사용하며 0, -0, null, false, NaN, undefined, 빈 문자열("")은 false로 간주됨.** <br>
 >> **문자열 "false"를 포함한 그 외 모든 다른 값은 초기값을 true로 설정한다.**
@@ -104,6 +106,7 @@
 >> | 객체                 |       모든 객체                           | null        |
 >> | Undefined |           해당없음                   | undefined   |
 >
+>
 >> #### 4. null : 의도적으로 변수에 값이 없다는 것을 명시할 때 사용
 >> **JavaScript는 대소문자를 구별하므로 null은 Null, NULL 등과 다르다.** <br>
 >> **타입을 나타내는 문자열을 반환하는 `typeOf` 연산자로 null 값을 연산해보면 null이 아닌 object가 나온다.** <br>
@@ -113,6 +116,7 @@
 >>	console.log(typeof foo === null); // false
 >>	console.log(foo === null);		  // true
 >> ```
+>
 >
 >> #### 5. undefined : 선언 이후 값을 할당하지 않은 변수는 undefined 값을 가진다.
 >> **어떤 변수를 만들고 그 값을 정의해 주지 않았을 때나 존재하지 않는 객체 property에 접근할 경우 `undefined`가 반환 됨.**
@@ -136,6 +140,7 @@
 >> console.log(o); // undefined
 >> ```
 >>
+>
 >
 >> #### 6. symbol (ES6에서 추가됨)
 >>
