@@ -62,7 +62,7 @@
 >		var d = NaN;
 > 		var e = isNaN;
 >		console.log(e); //true
-> ```
+> 
 > ###### 숫자 판별하기
 > * typeOf : 어떤 종류의 값인지 판단할 때 사용함
 > 
@@ -98,8 +98,40 @@
 > | 숫자                 | 0이 아닌 모든 숫자(무한대 포함)    | 0, NaN      |
 > | 객체                 |       모든 객체                           | null        |
 > | Undefined |           해당없음                   | undefined   |
-> #### 4. null
-> #### 5. undefined
+> #### 4. null : 의도적으로 변수에 값이 없다는 것을 명시할 때 사용
+> **JavaScript는 대소문자를 구별하므로 null은 Null, NULL 등과 다르다.** <br>
+> **타입을 나타내는 문자열을 반환하는 `typeOf` 연산자로 null 값을 연산해보면 null이 아닌 object가 나온다.** <br>
+> **따라서 null타입을 확인할 때는 `typeOf`연산자 대신 일치 연산자(===)를 사용하여야 한다.** <br>
+> ```javascript
+>	var foo = null;
+>	console.log(typeof foo === null); // false
+>	console.log(foo === null);		  // true
+>
+> #### 5. undefined : 선언 이후 값을 할당하지 않은 변수는 undefined 값을 가진다.
+> **어떤 변수를 만들고 그 값을 정의해 주지 않았을 때나 존재하지 않는 객체 property에 접근할 경우 `undefined`가 반환 됨.**
+> ###### null vs undefined 용도의 차이
+> `null`
+> * 의도적으로 값이 없음을 표현하고 싶을 때 대입
+> `undefined`
+> * 정의되지 않음이라는 뜻. 
+> * 값이 대입되지 않은 상태
+> ```javascript
+> // ex) null
+> var obj = {
+>	name : 'ken'
+> };
+> obj = null;
+> // obj를 이용한 작업이 모두 종료되고, 더 이상 사용하지 않을 때 obj를 의도적으로 없다고 표현.
+>
+> // ex) undefined 
+> var k;
+> console.log(k); // undefined
+> var o = undefined;
+> console.log(o); // undefined
+> ```
+>
+
+
 > #### 6. symbol (ES6에서 추가됨)
 >
 #### 메모리 사용 영역 `java`
