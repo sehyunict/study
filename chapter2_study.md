@@ -53,7 +53,7 @@
 > ###### 원시타입 (primitive data type) : 원시 타입의 값은 변결 불가능한 값(immutable value)이며 pass-by-value(값에 의한 전달)이다.
 > 
 > ##### Number(숫자형) : 숫자를 이용하여 덧셈/뺄셈/곱셈/나눗셈 등의 연산을 할 수 있다.
-> ######NaN : Not A Number
+> ###### NaN : Not A Number
 > * 유효하지 않은 숫자 연산을 실행했을 때 생성
 > * 만약 어떤 값이 NaN인지 판별하고 싶다면 isNaN이라는 함수를 사용하여 판별 가능
 > 	``` javascript
