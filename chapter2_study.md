@@ -81,9 +81,16 @@
 > 'I?doubt?that'.split('?');
 > 'Why would you doubt my word?'.split('');
 > 'You hAve BeEn DiSHonest'.toLowerCase();
-> 'no wAy!'.toUpperCase(); 
+> 'no wAy!'.toUpperCase(); ```
 > 
 > ##### Boolean(논리형) : 논리적 참, 거짓을 나타내는 `true` 또는 `false`
+> | **TYPE**  | **true로 변환되는 값** | **false로 변환되는 값** |
+> |-----------|------------------------|--------------|
+> | boolean   | true                   | false        |
+> | char      | 비어 있지 않은 모든 문자열                  | ""(빈 문자열)   |
+> | 숫자                 | 0이 아닌 모든 숫자(무한대 포함)    | 0, NaN      |
+> | 객체                 |       모든 객체                           | null        |
+> | Undefined |           해당없음                   | undefined   |
 > ##### null
 > ##### undefined
 > ##### symbol (ES6에서 추가됨)
