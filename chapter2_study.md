@@ -12,11 +12,10 @@
 > ##### `Data Type - java`
 > ###### 기본타입(primitive type)
 > ** ->변수에 실제 값들을 저장함 ** 
+>
 > <br>
 >
->	#######정수 타입 (byte, short, int, long)
->
-><br>
+> ####### 정수 타입 (byte, short, int, long) <br>
 >
 >| **TYPE** | **SIZE** | **RANGE**                                | **기본값** |
 >|----------|----------|------------------------------------------|------------------|
@@ -26,6 +25,7 @@
 >| long     | 8byte    | -9223372036854775808~9223372036854775807 | 0                |
 >
 > <br>
+>
 >	####### 실수 타입 (float, double)
 >	####### 논리 타입 (boolean) - true or false
 >	####### 문자 타입 (char)
@@ -47,7 +47,7 @@
 > #### 변수란?
 > #### 변수 선언 방법
 > #### 스코프
-> ##### `JavaScript - Scope`
+> #### JavaScript - Scope
 > * 자바스크립트 코드의 범위.
 > * 스코프는 전역 스코프(GlobalScope)와 지역스코프(LocalScope)로 나눌 수 있다.
 >>
@@ -61,7 +61,7 @@
 >>		* 지역 스코프에는 함수 스코프, 블록 스코프 두 가지가 있다.
 >>			* **함수 스코프(Function Scope)**
 >>				* 함수 스코프는 ES6 이전(let, const 나오기 전)까지 자바스크립트가 따르던 스코프이다.
->>				* 함수 내부에서 선언한 변수는 지역변수 이며 함수외부에서 선언한 변수는 모두 전역 변수로 취급. <br>
+>>				* 함수 내부에서 선언한 변수는 지역변수 이며 함수외부에서 선언한 변수는 모두 전역 변수로 취급. >> <br>
 >>			* **블록 스코프(Block Scope)**
 >>				* 블록 스코프는 대부분의 프로그래밍에서 따르던 스코프이다. <br>
 >>
@@ -83,7 +83,9 @@
 >#### Array.prototype.unshift
 >#### Array.prototype.shift
 >#### Array.prototype.fill
-<br>
+>
+> <br>
+>
 >#### Array.prototype.forEach
 >#### Array.prototype.find
 >#### Array.prototype.filter
