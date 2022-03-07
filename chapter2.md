@@ -8,18 +8,49 @@
 	- 실수 타입(float, double)
 	- 논리 타입(boolean)
 	- 문자 타입(char)
-	
-| 종류 | 기본타입 | 타입크기(byte) | 
-| ------| ------ | ------- |
-|      | byte  | 1byte |
-|      | char  | 2byte |
-| 정수 | short | 2byte |
-|      | int   | 4byte |
-|      | long  | 8byte |
-| 실수 | float | 4bye  |
-|      | double | 8byte |
-| 논리 | boolean | 1byte |
-    
+
+<table>
+	<tr>
+		<th>종류</th>
+		<th>기본타입</th>
+		<th>타입크기(byte)</th>
+	</tr>
+	<tr>
+		<td rowspan="5">정수</td>
+		<td>byte</td>
+		<td>1byte</td>
+	</tr>
+	<tr>
+		<td>char</td>
+		<td>2byte</td>
+	</tr>
+	<tr>
+		<td>short</td>
+		<td>2byte</td>
+	</tr>
+	<tr>
+		<td>int</td>
+		<td>4byte</td>
+	</tr>
+	<tr>
+		<td>long</td>
+		<td>8byte</td>
+	</tr>
+	<tr>
+		<td>실수</td>
+		<td>float</td>
+		<td>4byte</td>
+	</tr>
+	<tr>
+		<td>double</td>
+		<td>8byte</td>
+	</tr>
+	<tr>
+		<td>논리</td>
+		<td>boolean</td>
+		<td>1byte</td>
+	</tr>		
+</table>
 	
 2) 참조타입
 	- 배열
