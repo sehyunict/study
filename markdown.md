@@ -198,8 +198,6 @@ public static void main (String[] args) {
 #### 행&열 병합이 가능 함
 - colspan="" : 열(Column)병합
 	
-<br>
-	
 <table>
 	<tr>
 		<td>내용</td>
