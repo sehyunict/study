@@ -245,8 +245,38 @@
 >> * 변수를 사용하기 위해서는 변수 선언이 필요 함
 >> * 값을 저장하는 공간을 확보하겠다는 의미
 >>   -> 메모리를 사용하겠다고 미리 컴퓨터에게 알려줌
->> ##### `Java`
->> [링크](https://7942yongdae.tistory.com/22)
+>> ```java
+>> // 변수 선언하기 : String type / message라는 이름을 가진 변수 선언
+>> String message;
+>> 
+>> // 다중 변수 선언 : String type / message1, message2 이름을 가진 두 변수 선언
+>> String message1, message2;
+>> ```
+>
+>> 
+>> 2. 변수 초기화(Initialize)
+>> * 변수 선언 후 값 할당을 해주어야 사용할 수 있다.
+>>   -> 초기화란 선언된 변수에 값을 채워 넣는다는 의미
+>> ```java
+>> // String type / message 변수에 Hello World라는 값을 넣음
+>> String message = "Hello World";
+>> ```
+>> 
+>
+>>
+>> 3. 변수 명 규칙
+>> * keyword는 사용할 수 없음 [ex : true(x), True(o)]
+>> * 첫 글자는 숫자로 시작할 수 없음 [ex : 1step(x), step1(o)]
+>> * 특수문자는 '_', '$'만 사용할 수 있음 [ex : %step(x), _step1(o)]
+>> * 대소문자는 구별되며 길이에 제한두지 않음 [ex : true와 True는 다름]
+>> 
+>> ##### 관례 `java`
+>> * 클래스명의 첫 글자는 대문자로 한다.
+>> * 메서드명, 변수명의 첫 글자는 소문자로 한다.
+>> * 1개 이상의 단어로 이루어진 경우 단어의 첫 글자는 대문자로 한다. [ex : camelCase]
+>> * 상수의 이름은 모두 대문자로 하며, 1개 이상의 단어로 이루어진 경우 "_"로 구분한다.[ex : COUNT_OF_WORDS]
+>>
+>> [참고](https://7942yongdae.tistory.com/22)
 >>
 >> 
 > #### 스코프
