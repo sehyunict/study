@@ -59,12 +59,12 @@
   ###### NaN : Not A Number
   * 유효하지 않은 숫자 연산을 실행했을 때 생성
   * 만약 어떤 값이 NaN인지 판별하고 싶다면 isNaN이라는 함수를 사용하여 판별 가능
-  	``` javascript
+``` javascript
  		// ex)
  		var d = NaN;
   		var e = isNaN;
  		console.log(e); //true
-  ```
+```
  
  <br>
  
@@ -93,7 +93,7 @@
   'no wAy!'.toUpperCase();
   ```
 
-<b<br>
+<br>
 <br>
 
   #### 3. Boolean(논리형) : 논리적 참, 거짓을 나타내는 `true` 또는 `false`
@@ -132,6 +132,7 @@
   `undefined`
   * 정의되지 않음이라는 뜻. 
   * 값이 대입되지 않은 상태
+  
   ```javascript
   /* ------------ ex) null -------------- */ 
   var obj = { name : 'ken' };
