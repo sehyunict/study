@@ -210,21 +210,48 @@ public static void main (String[] args) {
 	</tr>
 </table>
 
+```THML
+<table>
+	<tr>
+		<td>내용</td>
+		<td>내용</td>
+	</tr>
+	<tr>
+		<td colspan="2">내용</td>
+	</tr>
+</table>
+```
+
+
 <br>
 
 - row span="" : 행(row)병합
 
 <table>
-  <tr>
-    <td rowspan="3">내용</td>
-    <td>내용</td>
-  </tr>
-  <tr>
-    <td>내용</td>
-  </tr>
-  <tr>
-    <td>내용</td>
-  </tr>
+	<tr>
+		<td rowspan="3">내용</td>
+		<td>내용</td>
+	</tr>
+	<tr>
+		<td>내용</td>
+	</tr>
+	<tr>
+		<td>내용</td>
+	</tr>
 </table>
 
+```HTML
+<table>
+	<tr>
+		<td rowspan="3">내용</td>
+		<td>내용</td>
+	</tr>
+	<tr>
+		<td>내용</td>
+	</tr>
+	<tr>
+		<td>내용</td>
+	</tr>
+</table>
+```
 
