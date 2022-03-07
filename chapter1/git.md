@@ -39,8 +39,9 @@
   * 파일을 잃어버리거나 잘못 수정했을 때, 쉽게 복구할 수 있다.
   * 형상 관리 시스템은 크게 `로컬 버전 관리 시스템`, `중앙집중식 버전 관리 시스템`, `분산 버전 관리 시스템`으로 구분할 수 있다. 
 
-##### `분산 버전 관리 시스템` VS `중앙집중식 버전 관리 시스템` [`DVCS` VS `CVCS`]
-* **분산 버전 관리(Distributed Version Control System)** <br>
+## `분산 버전 관리 시스템` VS `중앙집중식 버전 관리 시스템` [`DVCS` VS `CVCS`]
+#### 분산 버전 관리(Distributed Version Control System)
+
 <p align="center">
 	<img src="https://t1.daumcdn.net/cfile/tistory/2511743F514047D442">
 	
@@ -49,8 +50,8 @@
 * Git, Mecurial, Bazaar, Darcs  <br>
 * 클라이언트가 마지막 Snapshot을 받아오지 않고 그냥 저장소를 전부 복제한다. <br>
 * 서버에 문제가 생기면 아무 클라이언트의 복제물로 서버를 복원할 수 있다. <br>
-	
-* **중앙집중식 버전 관리(Centralized Version Control System)** <br>
+
+#### 중앙집중식 버전 관리(Centralized Version Control System)
 <p align="center">
 	<img src="https://t1.daumcdn.net/cfile/tistory/184C803F514047D41D">
 	
@@ -59,7 +60,7 @@
 * Subversion, CVS, Perforce <br>
 * 클라이언트가 중앙 서버로부터 파일을 받아서 사용(Checkout)한다. <br>
 * 중앙 서버의 하드디스크에 문제가 생겨서 모든 자료를 날린다면 복구할 방법이 없다. <br>
-  (만약 클라이언트들이 버전1부터 끝까지 각각 가지고 있다면 버전1부터 커밋하면 가능..) <br>
+	(만약 클라이언트들이 버전1부터 끝까지 각각 가지고 있다면 버전1부터 커밋하면 가능..) <br>
 
 <br>
 
