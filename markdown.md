@@ -171,3 +171,60 @@ public static void main (String[] args) {
 |3|5일|토요일|
 |3|6일|일요일|
 ```
+
+<br>
+
+- HTML 형식으로도 구현이 가능 함
+```HTML
+<table>
+	<tr>
+		<th>제목</th>
+		<th>제목</th>
+		<th>제목</th>
+	</tr>
+	<tr>
+		<td>내용</td>
+		<td>내용</td>
+		<td>내용</td>
+	</tr>
+	<tr>
+		<td>내용<td>
+		<td>내용<td>
+		<td>내용<td>
+	</tr>
+</table>
+```
+
+- 행&열 병합이 가능 함
+	- colspan="" : 열(Column)병합
+	
+<br>
+	
+<table>
+	<tr>
+		<td>내용</td>
+		<td>내용</td>
+	</tr>
+	<tr>
+		<td colspan="2">내용</td>
+	</tr>
+</table>
+
+<br>
+
+	- row span="" : 행(row)병합
+
+<table>
+  <tr>
+    <td rowspan="3">내용</td>
+    <td>내용</td>
+  </tr>
+  <tr>
+    <td>내용</td>
+  </tr>
+  <tr>
+    <td>내용</td>
+  </tr>
+</table>
+
+
