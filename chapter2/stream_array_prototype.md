@@ -14,7 +14,7 @@
  
  <p align="center">
  <a href="https://www.naver.com">
- <img src="https://www.nextree.co.kr/content/images/2021/01/hjkwon-140324-prototype-02.png">
+ <img src="https://www.nextree.co.kr/content/images/2021/01/hjkwon-140324-prototype-02.png" width="200px">
  </a>
  
 
