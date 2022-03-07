@@ -174,7 +174,7 @@ public static void main (String[] args) {
 
 <br>
 
-- HTML 형식으로도 구현이 가능 함
+#### HTML 형식으로도 구현이 가능 함
 ```HTML
 <table>
 	<tr>
@@ -195,8 +195,8 @@ public static void main (String[] args) {
 </table>
 ```
 
-- 행&열 병합이 가능 함
-	- colspan="" : 열(Column)병합
+#### 행&열 병합이 가능 함
+- colspan="" : 열(Column)병합
 	
 <br>
 	
@@ -212,7 +212,7 @@ public static void main (String[] args) {
 
 <br>
 
-	- row span="" : 행(row)병합
+- row span="" : 행(row)병합
 
 <table>
   <tr>
