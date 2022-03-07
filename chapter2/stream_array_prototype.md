@@ -50,9 +50,30 @@ console.log(yoon.eyes); // 2
 ⁂ Person 함수로부터 생성된 객체(yoon, kim)들은 어딘가에 존재하는 Ojbect에 들어있는 값을 모두 갖다 쓸 수 있음<br>
   ‣‣ <u>공통된 값을 묶어두고 공유하여 받아 씀</u>
   
-  <br>
-  
+<br>
 
+#### `Prototype Link` / `Prototype Object`
+* JS에는 Prototype Link와 Prototype Object가 존재하고, 이 둘을 통틀어 Prototype이라고 부름. 
+ 
+##### Prototype Object
+* 객체는 언제나 함수(Function)로 생성된다.
+
+```javascript
+	function Person() {} // 함수
+	var yoon = new Person(); // 함수로 객체를 생성 함
+```
+‣‣ yoon 객체는 Person이라는 함수로 생성된 객체이다. <br>
+   언제나 객체는 함수에서 시작된다.
+
+```javascript
+	var obj = {}; // 이 코드는
+	var obj = new Object(); // 이 코드와 같다
+```
+‣‣ Object가 JS에서 기본적으로 제공하는 함수 <br>	
+<nbsp><nbsp> Object와 마찬가지로 Function, Array도 모두 함수로 정의되어 있음.
+
+
+<br>
 
 ## Array prototype (stream)
 
