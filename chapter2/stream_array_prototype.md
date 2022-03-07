@@ -48,7 +48,9 @@ console.log(yoon.eyes); // 2
 -> yoon과 kim이 공통적으로 가지고 있는 eyes / nose를 공유해서 사용. <br>
 
 ⁂ Person 함수로부터 생성된 객체(yoon, kim)들은 어딘가에 존재하는 Ojbect에 들어있는 값을 모두 갖다 쓸 수 있음<br>
-  -> `<u>공통된 값을 묶어두고 공유하여 받아 씀</u>`<br>
+  -> <u>공통된 값을 묶어두고 공유하여 받아 씀</u>
+  
+  <br>
   
 
 
