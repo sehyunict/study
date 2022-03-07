@@ -40,11 +40,11 @@
  | char     | 2byte    | 0 ~ 65535 | \u0000           |
  
 
-  ###### 참조타입(reference type) <br>
- 	* 배열 <br>
- 	* 열거 타입 <br>
- 	* 클래스 <br>
- 	* 인터페이스 <br>
+  ###### 참조타입(reference type)
+* 배열 
+* 열거 타입
+* 클래스
+* 인터페이스
 
 <br>
 <br>
@@ -65,9 +65,7 @@
   		var e = isNaN;
  		console.log(e); //true
 ```
- 
- <br>
- 
+
 ###### 숫자 판별하기
 * typeOf : 어떤 종류의 값인지 판단할 때 사용함
  <br>
@@ -107,8 +105,9 @@
   | 객체      |    모든 객체                       | null                    |
   | Undefined | 해당없음                           | undefined               |
 
-<b<br>
 <br>
+<br>
+
   #### 4. null : 의도적으로 변수에 값이 없다는 것을 명시할 때 사용
   * JavaScript는 대소문자를 구별하므로 null은 Null, NULL 등과 다르다.
   * 타입을 나타내는 문자열을 반환하는 `typeOf` 연산자로 null 값을 연산해보면 null이 아닌 object가 나온다.
@@ -120,7 +119,6 @@
  	console.log(foo === null);		  // true
   ```
 
-<br>
 <br>
 
   #### 5. undefined : 선언 이후 값을 할당하지 않은 변수는 undefined 값을 가진다.
@@ -206,7 +204,9 @@
   * 스텍 영역이 가득차면 StackOverFlowError가 발생한다.
   * 메모리 엑세스 속도가 가장 빠르다.
  
-
+<br>
+<br>
+<br>
 
  ## wrapper class `java`
  * **기본 자료타입(primitive type)을 객체로 다루기 위해서 사용**하는 클래스들을 래퍼 클래스(wrapper class)라고 한다.
