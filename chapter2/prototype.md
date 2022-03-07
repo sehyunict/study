@@ -1,5 +1,7 @@
 ## prototype?
 * 프로토타입이 거의 자바스크립트 그 자체
+* 객체들이 공유하는 하나의 메모리 공간
+* 공통적으로 가지는 값, 공통 함수는 프로토타입에 저장하는것이 좋음(공유하니까)
 
 ### `prototype` VS `class`
 * Class는 Java, Python, Ruby등 객체 지향에서 빠질 수 없는 개념.
@@ -15,6 +17,14 @@
 ### Prototype 사용
 * javascript에 class는 없지만 함수(function)와 new를 통해 클래스를 비스무리하게 흉내낼 수 있다.
 
+###### 사용방법
+	* 객체
+		1. 객체.prototype.속성 = 값
+		2. 객체.prototype.속성 = function(){};
+	* 생성자함수
+		1. this.__proto__.속성 = 값
+		2. this.__proto__.속성 = function(){};
+		
 ###### Prototype 사용 이유
 Prototype Object는 일반적인 객체이므로 속성을 마음대로 추가/삭제 할 수 있다. <br>
 아래 코드에서 yoon과 kim은 Person함수를 통해 생성되었으므로 Person.prototype을 참조할 수 있게 된다.
@@ -61,6 +71,15 @@ console.log(yoon.eyes); // 2
  
 ### Prototype Object
 * 객체는 언제나 함수(Function)로 생성된다.
+	
+	###### 생성자 함수
+	1. 생성자 함수는 일반 함수와의 구분을 위해 관례상 첫 글자를 대문자로 만든다.
+	2. 객체 생성은 new 키워드로 한다.
+	3. 전달된 매개변수를 속성으로 저장하기 위해서 this 키워드를 활용한다.
+		- this
+			1. 객체 자신을 의미하는 키워드이다.
+			2. 객체 내부에서만 사용된다.
+			3. this.속성 또는 this['속성'] 중 한 가지 방법을 사용한다.				
 
 ```javascript
 	function Person() {} // 함수
