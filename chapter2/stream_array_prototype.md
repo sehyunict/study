@@ -15,6 +15,11 @@
 #### Prototype 사용
 * javascript에 class는 없지만 함수(function)와 new를 통해 클래스를 비스무리하게 흉내낼 수 있다.
 
+###### Prototype 사용 이유
+Prototype Object는 일반적인 객체이므로 속성을 마음대로 추가/삭제 할 수 있다.
+아래 코드에서 yoon과 kim은 Person함수를 통해 생성되었으므로 Person.prototype을 참조할 수 있게 된다.
+
+
 ```javascript
 function Person() {
 	this.eyes = 2;
@@ -70,8 +75,19 @@ console.log(yoon.eyes); // 2
 	var obj = new Object(); // 이 코드와 같다
 ```
 ‣‣ Object가 JS에서 기본적으로 제공하는 함수 <br>	
-<nbsp><nbsp> Object와 마찬가지로 Function, Array도 모두 함수로 정의되어 있음.
-
+Object와 마찬가지로 Function, Array도 모두 함수로 정의되어 있음. <br>
+	
+* 함수가 정의될 때는 두 가지 일이 동시에 이뤄진다. <br>
+	1. 해당 함수에 Constructor(생성자) 자격부여 <br>
+	‣‣ Constructor 자격이 부여되면 new를 통해 객체 생성 가능. <br>
+	이것이 함수만 new 키워드를 사용할 수 있는 이유. 
+	--> 객체를 직접 생성하는 것도 가능하지만 객체는 new 키워드를 사용할 수 없고, <br> 
+	new 키워드를 사용하여 객체생성을 하고자 할 경우 함수를 통해 생성해야 함. <br>
+	함수가 정의되면서 Object의 Constructor 자격을 부여받기 때문. <br>
+	2. 해당 함수의 Prototype Object 생성 및 연결 <br>
+	‣‣ 함수를 정의하면 함수만 생성되는 것이 아니라 Prototype Object도 같이 생성 된다. <br>
+	그리고 생성된 함수는 prototype이라는 속성을 통해 Prototype Object에 접근할 수 있다. <br>
+	Prototype Object는 일반적인 객체와 같으며 기본적인 속성으로 constructor와 __proto__를 가지고 있다.
 
 <br>
 
