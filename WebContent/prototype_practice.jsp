@@ -5,7 +5,13 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<script>
+
+
+</head>
+<body>
+	
+	<h1> Array.prototype.indexOf </h1>
+	<script>
 	/* Array.prototype.indexOf */
 	let array = [1, 2, 3, 4, 5];
 	console.log(array.indexOf(3)); 
@@ -33,12 +39,14 @@
 		console.log(array.indexOf(i));
 	}
 	
-</script>
-
-</head>
-<body>
+	</script>
 	
-	<h1> Array.prototype.indexOf </h1>
+	
+	<h1> Array.prototype.slice </h1>
+	<script>
+		
+	</script>
+	
 
 </body>
 </html>
