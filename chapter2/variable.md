@@ -1,11 +1,4 @@
-###### Chapter2를 시작하기 전에
-* git desktop과 eclipse 연동이 어려워서 방법 찾음 <br>
-[참고링크](https://sso-feeling.tistory.com/121)
-* markdown 표 생성링크 <br>
-[바로가기](https://www.tablesgenerator.com/markdown_tables)
-<br>
-
- ## 변수
+## 변수
 #### 변수(Variable)
 * 프로그래밍에서 변수란 **하나의 값을 저장할 수 있는 저장공간**
 * 변수의 선언 : 박스를 조립하고 라벨을 붙이는 것

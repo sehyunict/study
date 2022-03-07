@@ -1,3 +1,6 @@
+* git desktop과 eclipse 연동이 어려워서 방법 찾음 <br>
+[참고링크](https://sso-feeling.tistory.com/121)
+
 ## Git & Git Hub
 
   ### 1. Git 이란?
