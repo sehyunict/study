@@ -2,7 +2,7 @@
 
 #### Array.prototype.indexOf
 * 배열에서 지정된 요소를 찾는 메서드.
-* 있으면 해당 값을 반환하고, 없으면 -1을 반환 함.
+* 있으면 해당 값의 index를 반환하고, 없으면 -1을 반환 함.
 
 ```javascript
 	/* Array.prototype.indexOf */
@@ -29,8 +29,8 @@
 	// 0은 없으니까 -1 반환
 	// 1은 첫번째 index이므로 0반환 
 	
-	console.log('----- 연습확인 -----');
 	let staff = ['지민', '소정', 'jimin', 'sojeong'];
+	console.log('----- 연습확인 -----');
 	console.log(staff.indexOf('지민')); 	// 0
 	console.log(staff.indexOf('소정')); 	// 1
 	console.log(staff.indexOf('JIMIN')); 	// -1
