@@ -45,6 +45,7 @@
 	<img src="https://t1.daumcdn.net/cfile/tistory/2511743F514047D442">
 	
 <br>
+
 * Git, Mecurial, Bazaar, Darcs  <br>
 * 클라이언트가 마지막 Snapshot을 받아오지 않고 그냥 저장소를 전부 복제한다. <br>
 * 서버에 문제가 생기면 아무 클라이언트의 복제물로 서버를 복원할 수 있다. <br>
@@ -54,6 +55,7 @@
 	<img src="https://t1.daumcdn.net/cfile/tistory/184C803F514047D41D">
 	
 <br>
+
 * Subversion, CVS, Perforce <br>
 * 클라이언트가 중앙 서버로부터 파일을 받아서 사용(Checkout)한다. <br>
 * 중앙 서버의 하드디스크에 문제가 생겨서 모든 자료를 날린다면 복구할 방법이 없다. <br>
