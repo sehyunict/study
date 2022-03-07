@@ -4,7 +4,7 @@
 #### `prototype` VS `class`
 * Class는 Java, Python, Ruby등 객체 지향에서 빠질 수 없는 개념.
 * 자바스크립트도 객체지향언어이나, 클래스개념 대신 <u>프로토타입(prototype)</u>이 존재함.
-  -> 자바스크립트는 프로토타입 기반 언어라고 불림.
+  ‣‣ 자바스크립트는 프로토타입 기반 언어라고 불림.
 * 클래스가 없으므로 기본적으로 상속 기능도 없음.
 * 프로토타입을 기반으로 하여 상속을 흉내내도록 구현해 사용 함.
 
@@ -30,7 +30,7 @@ console.log(kim.eyes);  // 2
 console.log(yoon.nose); // 1
 console.log(kim.nose);  // 1
 ```
--> yoon과 kim은 eyes와 nose를 공통적으로 가지고 있는데, <br> 
+‣‣ yoon과 kim은 eyes와 nose를 공통적으로 가지고 있는데, <br> 
    메모리에는 eyes와 nose가 두개씩 총 4개가 할당된다. <br>
    객체를 100개 만들면 200개의 변수가 메모리에 할당된다. <br>
    이럴 경우, 프로토타입으로 해결할 수 있다.
@@ -45,10 +45,10 @@ var kim = new Person();
 
 console.log(yoon.eyes); // 2
 ```
--> yoon과 kim이 공통적으로 가지고 있는 eyes / nose를 공유해서 사용. <br>
+‣‣ yoon과 kim이 공통적으로 가지고 있는 eyes / nose를 공유해서 사용. <br>
 
 ⁂ Person 함수로부터 생성된 객체(yoon, kim)들은 어딘가에 존재하는 Ojbect에 들어있는 값을 모두 갖다 쓸 수 있음<br>
-  -> <u>공통된 값을 묶어두고 공유하여 받아 씀</u>
+  ‣‣ <u>공통된 값을 묶어두고 공유하여 받아 씀</u>
   
   <br>
   
