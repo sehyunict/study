@@ -44,7 +44,33 @@
 	
 	<h1> Array.prototype.slice </h1>
 	<script>
+		let fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
+		let citrus = fruits.slice(1,3);
+		let threeFruits =fruits.slice(0,3);
+		console.log('--- Arra.prototype.slice ---')
+		console.log(citrus);
+		console.log(threeFruits);
+		console.log(fruits);
 		
+		// Using slice, create newCar from myCar.
+		let myHonda = { color: 'red', wheels: 4, engine: { cylinders: 4, size: 2.2 } }
+		let myCar = [myHonda, 2, 'cherry condition', 'purchased 1997']
+		let newCar = myCar.slice(0, 2)
+
+		// Display the values of myCar, newCar, and the color of myHonda
+		// referenced from both arrays.
+		console.log('myCar = ' + JSON.stringify(myCar))
+		console.log('newCar = ' + JSON.stringify(newCar))
+		console.log('myCar[0].color = ' + myCar[0].color)
+		console.log('newCar[0].color = ' + newCar[0].color)
+
+		// Change the color of myHonda.
+		myHonda.color = 'purple'
+		console.log('The new color of my Honda is ' + myHonda.color)
+
+		// Display the color of myHonda referenced from both arrays.
+		console.log('myCar[0].color = ' + myCar[0].color)
+		console.log('newCar[0].color = ' + newCar[0].color)
 	</script>
 	
 

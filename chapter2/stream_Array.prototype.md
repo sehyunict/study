@@ -38,9 +38,21 @@
 	
 ```
 
-#### Array.prototype.slice [참고하기](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
-* 어떤 배열의 begin부터 end까지(end 미포함)에 대한 얕은 복사본을 새로운 배열 객체로 반환한다.
+#### Array.prototype.slice
+* 어떤 배열의 begin부터 end까지(end 미포함)에 대한 얕은 복사본을 새로운 배열 객체로 반환한다. <br>
+	ex) variable.slice(0,3) : 0~2번째 index의 값, 3개
+	ex) variable.slice(1,4) : 1~3번째 index의 값, 3개
+	**뒤의 index 전까지의 값. end는 포함되지 않는다**
 * 원본 배열은 바뀌지 않는다.
+```javascript
+		let fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
+		let citrus = fruits.slice(1,3);
+		let threeFruits = fruits.slice(0,3);
+		console.log('--- Arra.prototype.slice ---')
+		console.log(citrus); // ['Orange', 'Lemon'] 
+		console.log(threeFruits); // ['Banana', 'Orange', 'Lemon']
+		console.log(fruits); // ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango']
+```
 
 
 #### Array.prototype.splice
