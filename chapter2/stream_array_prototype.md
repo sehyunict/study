@@ -96,6 +96,9 @@ Object와 마찬가지로 Function, Array도 모두 함수로 정의되어 있�
 		‣‣ Prototype Object에 존재하는 eyes 속성을 참조한 것. <br>
 <p align="center">
 <img src="https://miro.medium.com/max/1400/1*jMTxqTYDZGhykJQoimmb0A.png">
+
+<br>
+
 * __proto__는 객체가 생성될 때 조상이었던 함수의 Prototype Object를 가리킨다. <br>
 	‣‣ yoon객체는 Person함수로부터 생성되었으므로 Person함수의 Prototype object를 가리키는 것. <br>
 
@@ -103,12 +106,15 @@ Object와 마찬가지로 Function, Array도 모두 함수로 정의되어 있�
 
 <p align="center">
 <img src="https://miro.medium.com/max/1400/1*mwPfPuTeiQiGoPmcAXB-Kg.png">
+
+<br>
+
 ###### 프로토타입 체인, 최상위는 Object
 	
 * Prototype Chain <br>
 	yoon 객체가 eyes를 직접 갖고 있지 않기 때문에 eyes속성을 찾을 때 까지 상위 prototype을 탐색함. <br>
 	최상위인 Object의 Prototype Object까지 도달했는데도 못 찾았을 경우 undefined를 return. <br>
-	이와 같이 __proto__속성을 통해 상위 프로토타입과 연결되어있는 형태를 프로토타입 체인(prototype chain)이라고 한다. <br>
+	이와 같이 __proto__속성을 통해 상위 프로토타입과 연결되어있는 형태를 프로토타입 체인(prototype chain)이라고 한다. <br><br>
 ⁂ 이런 프로토타입 체인 구조 때문에 모든 객체는 Obejct의 자식이라 불리고, <br>
 	Object Prototype Object에 있는 모든 속성을 사용할 수 있다.<br>
 	ex) toString
