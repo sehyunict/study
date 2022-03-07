@@ -203,19 +203,18 @@ ex) 메소드의 파라미터로 객체 타입만이 요구될 경우
 <br>
 	호이스팅은 ** var을 통해 정의된 변수의 선언문을 유효 범위의 최상단으로 끌어올리는 행위 ** 를 말한다.
 	'선언과 할당의 분리'라고 생각하면 기억하기 좋다.
+	
+```
 	< 개발자가 작성한 코드 >
-```
-if(true){
-	var name="jimin";
-}
-		console.log(name);
-```		
+	if(true){
+		var name="jimin";
+	}
+			console.log(name);
 	< 호이스팅으로 변환된 코드 >
-```
-var name; //선언
-if(true){
-	name="jimin";  //할당
-}
+	var name; //선언
+	if(true){
+		name="jimin";  //할당
+	}
 ```
 
 	
