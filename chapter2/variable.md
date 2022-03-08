@@ -69,7 +69,7 @@
 		
 <br>
 
- ### Scope `JavaScript`
+ ### Scope `JavaScript`  // 함수 영역 단위
  * 자바스크립트 코드의 범위.
  * 본래 자바스크립트에서는 block scope가 없다. function scope가 존재
  * 함수에서 사용하는 모든 변수를 함수 첫 부분에서 선언 하는 것이 최선의 방법
