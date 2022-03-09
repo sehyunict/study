@@ -15,6 +15,9 @@
 		<td rowspan="2">웹 서버</td>
 		<td>Tomcat(오픈소스) / WebLogic Server(오라클)</td>
 	</tr>
+	<tr>
+		<td>WebSphere Application Server(IBM) / IIS(마이크로소프트)</td>
+	</tr>
 
 </table>
 
