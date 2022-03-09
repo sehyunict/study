@@ -13,10 +13,15 @@
 	</tr>
 	<tr>
 		<td rowspan="2">웹 서버</td>
-		<td>Tomcat(오픈소스) / WebLogic Server(오라클)</td>
+		<td>
+			<li>
+				<ul>Tomcat(오픈소스)</ul>
+				<ul>WebLogic Server(오라클)</ul>
+				<ul>WebSphere Application Server(IBM)</ul>
+				<ul>IIS(마이크로소프트)</ul>
+		</td>
 	</tr>
 	<tr>
-		<td>WebSphere Application Server(IBM) / IIS(마이크로소프트)</td>
 	</tr>
 
 </table>
