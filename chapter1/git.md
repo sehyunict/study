@@ -1,6 +1,23 @@
 * git desktop과 eclipse 연동이 어려워서 방법 찾음 <br>
 [참고링크](https://sso-feeling.tistory.com/121)
 
+
+## 서버(Server)란 무엇인가?
+* 클라이언트에게 네트워크를 통해 서비스하는 컴퓨터를 의미한다. : 제공자(serve하는 사람 -> server) <br>
+	- 요청을 받으면 해당 요청에 대한 데이터를 보내줌
+
+<table>
+	<tr>
+		<td>서버</td>
+		<td>대표적인 서버 소프트웨어</td>
+	</tr>
+	<tr>
+		<td rowspan="2">웹 서버</td>
+		<td>Tomcat(오픈소스) / WebLogic Server(오라클)</td>
+	</tr>
+
+</table>
+
 ## Git & Git Hub
 
   ### 1. Git 이란?
