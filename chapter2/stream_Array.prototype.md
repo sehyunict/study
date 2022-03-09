@@ -4,6 +4,11 @@
 * 배열에서 지정된 요소를 찾는 메서드.
 * 있으면 해당 값의 index를 반환하고, 없으면 -1을 반환 함.
 
+###### 문법
+```javascript
+	.indexOf(찾고자 하는 값);
+```
+
 ```javascript
 	/* Array.prototype.indexOf */
 	let array = [1, 2, 3, 4, 5];
@@ -38,11 +43,18 @@
 	
 ```
 
-#### Array.prototype.slice
+#### Array.prototype.slice : 부분, 몫
 * 어떤 배열의 begin부터 end까지(end 미포함)에 대한 얕은 복사본을 새로운 배열 객체로 반환한다. <br>
 	ex) variable.slice(0,3) : 0~2번째 index의 값, 3개
 	ex) variable.slice(1,4) : 1~3번째 index의 값, 3개
 	**뒤의 index 전까지의 값. end는 포함되지 않는다**
+
+###### 문법
+```javascript
+	.slice(시작 인덱스, 마지막인덱스+1); 
+	// (배열의 마지막 인덱스 end는 미포함이므로 보고싶은 인덱스의 다음 자리 수를 생각 할 것)
+```	
+	
 * 원본 배열은 바뀌지 않는다.
 ```javascript
 		let fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
