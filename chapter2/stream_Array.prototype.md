@@ -6,41 +6,41 @@
 
 ###### 문법
 ```javascript
-	.indexOf(찾고자 하는 값);
+.indexOf(찾고자 하는 값);
 ```
 
 ```javascript
-	/* Array.prototype.indexOf */
-	let array = [1, 2, 3, 4, 5];
-	console.log(array.indexOf(3)); 
-	// 3번째 index의 값을 표시하는 것이 아니라,
-	// 3의 값을 가진 index를 찾아서 표시한다.
-	
-	console.log('----- 값 확인용 -----');
-	console.log(array.indexOf(0)); // -1
-	console.log(array.indexOf(1)); // 0
-	console.log(array.indexOf(2)); // 1
-	console.log(array.indexOf(3)); // 2
-	console.log(array.indexOf(4)); // 3
-	console.log(array.indexOf(5)); // 4
-	console.log(array.indexOf(6)); // -1 
-	
-	console.log('----- for -----');
-	for (let i = 0; i <= array.length; i++) {
-		console.log(array.indexOf(i));
-	}
-	// 결과 : -1, 0, 1, 2, 3, 4 
-	// --> array 배열에서 0~4 숫자 찾은거임.
-	// 0은 없으니까 -1 반환
-	// 1은 첫번째 index이므로 0반환 
-	
-	let staff = ['지민', '소정', 'jimin', 'sojeong'];
-	console.log('----- 연습확인 -----');
-	console.log(staff.indexOf('지민')); 	// 0
-	console.log(staff.indexOf('소정')); 	// 1
-	console.log(staff.indexOf('JIMIN')); 	// -1
-	console.log(staff.indexOf('sojeong'));  // 3
-	
+/* Array.prototype.indexOf */
+let array = [1, 2, 3, 4, 5];
+console.log(array.indexOf(3)); 
+// 3번째 index의 값을 표시하는 것이 아니라,
+// 3의 값을 가진 index를 찾아서 표시한다.
+
+console.log('----- 값 확인용 -----');
+console.log(array.indexOf(0)); // -1
+console.log(array.indexOf(1)); // 0
+console.log(array.indexOf(2)); // 1
+console.log(array.indexOf(3)); // 2
+console.log(array.indexOf(4)); // 3
+console.log(array.indexOf(5)); // 4
+console.log(array.indexOf(6)); // -1 
+
+console.log('----- for -----');
+for (let i = 0; i <= array.length; i++) {
+	console.log(array.indexOf(i));
+}
+// 결과 : -1, 0, 1, 2, 3, 4 
+// --> array 배열에서 0~4 숫자 찾은거임.
+// 0은 없으니까 -1 반환
+// 1은 첫번째 index이므로 0반환 
+
+let staff = ['지민', '소정', 'jimin', 'sojeong'];
+console.log('----- 연습확인 -----');
+console.log(staff.indexOf('지민')); 	// 0
+console.log(staff.indexOf('소정')); 	// 1
+console.log(staff.indexOf('JIMIN')); 	// -1
+console.log(staff.indexOf('sojeong'));  // 3
+
 ```
 
 <br>
@@ -55,19 +55,19 @@
 
 ###### 문법
 ```javascript
-	.slice(시작 인덱스, 마지막인덱스+1); 
-	// (배열의 마지막 인덱스 end는 미포함이므로 보고싶은 인덱스의 다음 자리 수를 생각 할 것)
+.slice(시작 인덱스, 마지막인덱스+1); 
+// (배열의 마지막 인덱스 end는 미포함이므로 보고싶은 인덱스의 다음 자리 수를 생각 할 것)
 ```	
 	
 * 원본 배열은 바뀌지 않는다.
 ```javascript
-		let fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
-		let citrus = fruits.slice(1,3);
-		let threeFruits = fruits.slice(0,3);
-		console.log('--- Arra.prototype.slice ---')
-		console.log(citrus); // ['Orange', 'Lemon'] 
-		console.log(threeFruits); // ['Banana', 'Orange', 'Lemon']
-		console.log(fruits); // ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango']
+let fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
+let citrus = fruits.slice(1,3);
+let threeFruits = fruits.slice(0,3);
+console.log('--- Arra.prototype.slice ---')
+console.log(citrus); // ['Orange', 'Lemon'] 
+console.log(threeFruits); // ['Banana', 'Orange', 'Lemon']
+console.log(fruits); // ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango']
 ```
 
 <br>
@@ -88,45 +88,45 @@
 (3) 배열에 추가할 요소 : 생략하면 추가되지 않는다. <br>
 
 ```javascript
-	//연습
-		let foods = ['라면', '초밥', '김밥', '족발', '마라탕'];
-		console.log(foods); 
-		// ['라면', '초밥', '김밥', '족발', '마라탕']
-		
-		
-		// 추가하기
-		foods.splice(1, 0, '감자탕', '파스타');
-		console.log(foods);
-		// ['라면', '감자탕', '파스타', '초밥', '김밥', '족발', '마라탕']
-		// 시작인덱스를 기준으로 삽입하고, 원래 있던 데이터는 뒤로 밀려남
-		foods.splice(-1, 0, '-1에넣기');
-		console.log(foods);
-		// ['라면', '감자탕', '파스타', '초밥', '김밥', '족발', '-1에넣기', '마라탕']
-		// 뒤에서 첫번째 자리에 들어감
-		
-		foods.splice(foods.length, 0, '맨뒤에 넣기');
-		console.log(foods);
+//연습
+	let foods = ['라면', '초밥', '김밥', '족발', '마라탕'];
+	console.log(foods); 
+	// ['라면', '초밥', '김밥', '족발', '마라탕']
+	
+	
+	// 추가하기
+	foods.splice(1, 0, '감자탕', '파스타');
+	console.log(foods);
+	// ['라면', '감자탕', '파스타', '초밥', '김밥', '족발', '마라탕']
+	// 시작인덱스를 기준으로 삽입하고, 원래 있던 데이터는 뒤로 밀려남
+	foods.splice(-1, 0, '-1에넣기');
+	console.log(foods);
+	// ['라면', '감자탕', '파스타', '초밥', '김밥', '족발', '-1에넣기', '마라탕']
+	// 뒤에서 첫번째 자리에 들어감
+	
+	foods.splice(foods.length, 0, '맨뒤에 넣기');
+	console.log(foods);
 
-		
-		// 삭제하기
-		foods.splice(foods.length - 1, 1);
-		console.log(foods);
-		// ['라면', '감자탕', '파스타', '초밥', '김밥', '족발', '-1에넣기', '마라탕']
-		
-		foods.splice(-1, 1);
-		console.log(foods);
-		// ['라면', '감자탕', '파스타', '초밥', '김밥', '족발', '-1에넣기']
-		
-		console.log(foods.indexOf('-1에넣기'));
-		foods.splice(6, 1);
-		console.log(foods);
-		// ['라면', '감자탕', '파스타', '초밥', '김밥', '족발']
-		
-		
-		// 수정하기 : 라면 -> 감자탕
-		foods.splice(0, 1,'감자탕');
-		console.log(foods);
-		//['감자탕', '감자탕', '파스타', '초밥', '김밥', '족발']
+	
+	// 삭제하기
+	foods.splice(foods.length - 1, 1);
+	console.log(foods);
+	// ['라면', '감자탕', '파스타', '초밥', '김밥', '족발', '-1에넣기', '마라탕']
+	
+	foods.splice(-1, 1);
+	console.log(foods);
+	// ['라면', '감자탕', '파스타', '초밥', '김밥', '족발', '-1에넣기']
+	
+	console.log(foods.indexOf('-1에넣기'));
+	foods.splice(6, 1);
+	console.log(foods);
+	// ['라면', '감자탕', '파스타', '초밥', '김밥', '족발']
+	
+	
+	// 수정하기 : 라면 -> 감자탕
+	foods.splice(0, 1,'감자탕');
+	console.log(foods);
+	//['감자탕', '감자탕', '파스타', '초밥', '김밥', '족발']
 ```
 
 <br>
