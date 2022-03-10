@@ -57,7 +57,8 @@
 		console.log(foods);
 		//['감자탕', '감자탕', '파스타', '초밥', '김밥', '족발']
 		
-		
+		console.log(JSON.stringify(foods));
+		console.log(typeof(foods) == 'object' ? true : false);
 	</script>
 	
 </body>
