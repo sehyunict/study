@@ -3,7 +3,7 @@
 
 
 ## 서버(Server)란 무엇인가?
-* 클라이언트에게 네트워크를 통해 서비스하는 컴퓨터를 의미한다. : 제공자(serve하는 사람 -> server) <br>
+* 클라이언트에게 네트워크를 통해 서비스하는 시스템을 의미한다. : 제공자(serve하는 사람 -> server) <br>
 	- 요청을 받으면 해당 요청에 대한 데이터를 보내줌
 
 <table>
@@ -31,7 +31,68 @@
 			</ul>
 		</td>
 	</tr>
-
+	<tr>
+		<td>DNS 서버</td>
+		<td>
+			<ul>
+				<li>BIND(오픈소스)</li>
+				<li>Windows Server(마이크로소프트)</li>
+			</ul>
+		</td>
+	<tr>
+	<tr>
+		<td>프록시서버</td>
+		<td>Squid(오픈소스)</td>
+	</tr>
+	<tr>
+		<td>메일(POP/SMTP) 서버</td>
+		<td>
+			<li>sendmail(오픈소스)</li>
+			<li>gmail(오픈소스)</li>
+			<li>postfix(오픈소스)</li>
+			<li>Exchange Server(마이크로소프트)</li>
+		</td>
+	</tr>
+	<tr>
+		<td>FTP 서버</td>
+		<td>
+			<li>vs-ftpd(오라클)</li>
+			<li>IIS(마이크로소프트)</li>
+		</td>
+	</tr>
+	<tr>
+		<td>데이터베이스 서버</td>
+		<td>
+			<li>Oracle Database(오라클)</li>
+			<li>MySQL(오라클, 오픈소스)</li>
+			<li>SQL Server(마이크로소프트)</li>
+			<li>DB2(IBM)</li>
+		</td>
+	</tr>
+	<tr>
+		<td>NTP 서버</td>
+		<td>
+			<li>ntpd(오픈소스)</li>
+			<li>Windows Server(마이크로소프트)</li>
+		</td>
+	</tr>
+	<tr>
+		<td>Syslog 서버</td>
+		<td>
+			<li>syslog-ng(오픈소스)</li>
+			<li>rsyslog(오픈소스)</li>
+			<li>Kiwi Syslog Server(SolarWinds)</li>
+		</td>
+	</tr>
+	<tr>
+		<td>SNMP 서버</td>
+		<td>
+			<li>net-snmp(오픈소스)</li>
+			<li>TWSNMP 매니저(오픈소스)</li>
+			<li>OpenView NNM(휴렛팩커드)</li>
+			<li><a href="http://www.tocsg.co.kr/OMNIBus/598#">Tivoli NetCool(IBM)</a></li>
+		</td>
+	</tr>
 </table>
 
 ## Git & Git Hub
