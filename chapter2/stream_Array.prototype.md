@@ -1,6 +1,6 @@
 # Array prototype (stream)
 
-## Array.prototype.indexOf
+### Array.prototype.indexOf
 * 배열에서 지정된 요소를 찾는 메서드.
 * 있으면 해당 값의 index를 반환하고, 없으면 -1을 반환 함.
 
@@ -45,7 +45,7 @@
 
 <hr>
 
-## Array.prototype.slice : 부분, 몫
+### Array.prototype.slice : 부분, 몫
 * 어떤 배열의 begin부터 end까지(end 미포함)에 대한 얕은 복사본을 새로운 배열 객체로 반환한다. <br>
 	ex) variable.slice(0,3) : 0-2번째 index의 값, 3개 <br>
 	ex) variable.slice(1,4) : 1-3번째 index의 값, 3개 <br>
@@ -70,7 +70,7 @@
 
 <hr>
 
-## Array.prototype.splice
+### Array.prototype.splice
 * 배열의 기존 요소를 삭제 또는 교체하거나 새요소를 추가하여 배열의 내용을 변경한다. <br>
 
 ###### 문법
@@ -127,7 +127,7 @@
 
 <hr>
 
-## Array.prototype.join
+### Array.prototype.join
 * 원본 배열의 모든 요소를 문자열로 변환한 후, 인수로 전달받은 문자열을 구분자로 연결하여 반환
 * 구분자는 생략 가능하며 기본 구분자는 콤마(',')이다.
 
@@ -141,21 +141,21 @@ console.log(copied1); // 1, 2, 3, 4, 5
 
 <hr>
 
-## Array.prototype.push
+### Array.prototype.push
 * 배열 끝에 새로운 요소를 추가한다.
 	- 말 그대로 배열에다 push해 넣음.
 
-## Array.prototype.pop
-## Array.prototype.unshift
-## Array.prototype.shift
-## Array.prototype.fill
+### Array.prototype.pop
+### Array.prototype.unshift
+### Array.prototype.shift
+### Array.prototype.fill
 
 <br>
 
-## Array.prototype.forEach
-## Array.prototype.find
-## Array.prototype.filter
-## Array.prototype.map
-## Array.prototype.some
-## Array.prototype.every
-## Array.prototype.reduce
+### Array.prototype.forEach
+### Array.prototype.find
+### Array.prototype.filter
+### Array.prototype.map
+### Array.prototype.some
+### Array.prototype.every
+### Array.prototype.reduce
