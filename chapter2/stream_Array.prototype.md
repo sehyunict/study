@@ -45,8 +45,8 @@
 
 #### Array.prototype.slice : 부분, 몫
 * 어떤 배열의 begin부터 end까지(end 미포함)에 대한 얕은 복사본을 새로운 배열 객체로 반환한다. <br>
-	ex) variable.slice(0,3) : 0~2번째 index의 값, 3개 <br>
-	ex) variable.slice(1,4) : 1~3번째 index의 값, 3개 <br>
+	ex) variable.slice(0,3) : 0-2번째 index의 값, 3개 <br>
+	ex) variable.slice(1,4) : 1-3번째 index의 값, 3개 <br>
 	**뒤의 index 전까지의 값. end는 포함되지 않는다**
 
 ###### 문법
