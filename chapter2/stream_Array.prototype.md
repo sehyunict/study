@@ -151,7 +151,7 @@ console.log(copied1); // 1, 2, 3, 4, 5
 
 ### Array.prototype.push
 * 배열 끝에 새로운 요소를 추가한다.
-	- 말 그대로 배열에다 push해 넣음.
+	- 말 그대로 배열 마지막 index에다 push해 넣음.
 
 <br>
 <hr>
