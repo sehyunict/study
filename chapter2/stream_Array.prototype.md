@@ -134,7 +134,7 @@ console.log(fruits); // ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango']
 <br>
 
 ### Array.prototype.join
-* 원본 배열의 모든 요소를 문자열로 변환한 후, 인수로 전달받은 문자열을 구분자로 연결하여 반환
+* 원본 배열의 모든 요소를 문자열로 변환한 후, 인수로 전달받은 문자열을 구분자로 연결하여 반환 -> String type으로 바뀜
 * 구분자는 생략 가능하며 기본 구분자는 콤마(',')이다.
 
 ###### 문법
@@ -144,6 +144,13 @@ let arr1 = [1, 2, 3, 4, 5];
 let copied1 = arr1.join('구분자');	 // default 구분자 : ','
 console.log(copied1); // 1, 2, 3, 4, 5
 ```
+
+```javascript
+// obejct -> string 으로 바뀜
+console.log(typeof(arr5) == 'object' ? 'true' : 'false'); 	 // true
+console.log(typeof(copied5) == 'string' ? 'true' : 'false'); // true
+```
+
 
 <br>
 <hr>

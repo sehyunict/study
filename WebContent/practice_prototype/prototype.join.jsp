@@ -39,12 +39,22 @@ let arr5 = [1, 2, 3, 4, 5];
 let copied5 = arr5.join('구분자');
 console.log(arr5);
 console.log(copied5);
-
-console.log(typeof(arr1)); // object
-console.log(typeof(arr2)); // object
-console.log(typeof(arr3)); // object
-console.log(typeof(arr4)); // object
+console.log(typeof(copied5));
 console.log(typeof(arr5)); // object
+
+console.log(typeof(arr5) == 'object' ? 'true' : 'false');
+console.log(typeof(copied5) == 'string' ? 'true' : 'false');
+
+// 연습
+const emp = ['소정', '지민', 'JIMIN', 'SOJEONG'];
+const list = emp.join('\n');
+const list2 = emp.join(' ');
+console.log(list);
+console.log(list2);
+console.log(typeof(emp));
+console.log(typeof(list)); // string
+console.log(typeof(list2)); // string
+
 
 </script>
 

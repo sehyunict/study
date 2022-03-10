@@ -18,6 +18,11 @@
 	arr.push('sixth');
 	console.log(JSON.stringify(arr));
 	
+	
+	// 연습
+	arr.splice(arr.indexOf('second'), 0, '1.5');
+	console.log(JSON.stringify(arr));
+
 </script>
 
 </body>
