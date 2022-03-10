@@ -14,12 +14,12 @@
 	<tr>
 		<td rowspan="2">웹 서버</td>
 		<td>
-			<li>
-				<ul>Tomcat(오픈소스)</ul>
-				<ul>WebLogic Server(오라클)</ul>
-				<ul>WebSphere Application Server(IBM)</ul>
-				<ul>IIS(마이크로소프트)</ul>
-			</li>
+			<ul>
+				<li>Tomcat(오픈소스)</li>
+				<li>WebLogic Server(오라클)</li>
+				<li>WebSphere Application Server(IBM)</li>
+				<li>IIS(마이크로소프트)</li>
+			</ul>
 		</td>
 	</tr>
 	<tr>
