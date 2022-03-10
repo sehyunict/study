@@ -23,6 +23,13 @@
 		</td>
 	</tr>
 	<tr>
+		<td>SSL 서버</td>
+		<td>
+			<ul>
+				<li>OpenSSL(오픈소스)</li>
+				<li>IIS(마이크로소프트)</li>
+			</ul>
+		</td>
 	</tr>
 
 </table>
