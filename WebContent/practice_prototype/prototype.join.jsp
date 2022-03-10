@@ -36,10 +36,9 @@ console.log(copied4);
 
 console.log('------ arr5 ------');
 let arr5 = [1, 2, 3, 4, 5];
-let copied5 = arr5.join('aa');
+let copied5 = arr5.join('구분자');
 console.log(arr5);
 console.log(copied5);
-
 
 </script>
 
