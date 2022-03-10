@@ -19,6 +19,7 @@
 				<ul>WebLogic Server(오라클)</ul>
 				<ul>WebSphere Application Server(IBM)</ul>
 				<ul>IIS(마이크로소프트)</ul>
+			</li
 		</td>
 	</tr>
 	<tr>
