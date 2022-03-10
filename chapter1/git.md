@@ -12,7 +12,7 @@
 		<td>대표적인 서버 소프트웨어</td>
 	</tr>
 	<tr>
-		<td rowspan="2">웹 서버</td>
+		<td>웹 서버</td>
 		<td>
 			<ul>
 				<li>Tomcat(오픈소스)</li>
