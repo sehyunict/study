@@ -8,11 +8,11 @@
 
 <table>
 	<tr>
-		<td>서버</td>
-		<td>대표적인 서버 소프트웨어</td>
+		<th>서버</th>
+		<th>대표적인 서버 소프트웨어</th>
 	</tr>
 	<tr>
-		<td>웹 서버</td>
+		<td align="center">웹 서버</td>
 		<td>
 			<ul>
 				<li>Tomcat(오픈소스)</li>
@@ -23,7 +23,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>SSL 서버</td>
+		<td align="center">SSL 서버</td>
 		<td>
 			<ul>
 				<li>OpenSSL(오픈소스)</li>
@@ -32,7 +32,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>DNS 서버</td>
+		<td align="center">DNS 서버</td>
 		<td>
 			<ul>
 				<li>BIND(오픈소스)</li>
@@ -41,11 +41,13 @@
 		</td>
 	<tr>
 	<tr>
-		<td>프록시서버</td>
-		<td>Squid(오픈소스)</td>
+		<td align="center">프록시서버</td>
+		<td>
+			<li>Squid(오픈소스)</li>			
+		</td>
 	</tr>
 	<tr>
-		<td>메일(POP/SMTP) 서버</td>
+		<td align="center">메일(POP/SMTP) 서버</td>
 		<td>
 			<li>sendmail(오픈소스)</li>
 			<li>gmail(오픈소스)</li>
@@ -54,14 +56,14 @@
 		</td>
 	</tr>
 	<tr>
-		<td>FTP 서버</td>
+		<td align="center">FTP 서버</td>
 		<td>
 			<li>vs-ftpd(오라클)</li>
 			<li>IIS(마이크로소프트)</li>
 		</td>
 	</tr>
 	<tr>
-		<td>데이터베이스 서버</td>
+		<td align="center">데이터베이스 서버</td>
 		<td>
 			<li>Oracle Database(오라클)</li>
 			<li>MySQL(오라클, 오픈소스)</li>
@@ -70,14 +72,14 @@
 		</td>
 	</tr>
 	<tr>
-		<td>NTP 서버</td>
+		<td align="center">NTP 서버</td>
 		<td>
 			<li>ntpd(오픈소스)</li>
 			<li>Windows Server(마이크로소프트)</li>
 		</td>
 	</tr>
 	<tr>
-		<td>Syslog 서버</td>
+		<td align="center">Syslog 서버</td>
 		<td>
 			<li>syslog-ng(오픈소스)</li>
 			<li>rsyslog(오픈소스)</li>
@@ -85,7 +87,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>SNMP 서버</td>
+		<td align="center">SNMP 서버</td>
 		<td>
 			<li>net-snmp(오픈소스)</li>
 			<li>TWSNMP 매니저(오픈소스)</li>
