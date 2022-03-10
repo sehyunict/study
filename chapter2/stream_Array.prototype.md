@@ -153,6 +153,18 @@ console.log(copied1); // 1, 2, 3, 4, 5
 * 배열 끝에 새로운 요소를 추가한다.
 	- 말 그대로 배열 마지막 index에다 push해 넣음.
 
+###### 예시
+
+```javascript
+	
+let arr = ['first', 'second', 'third', 'fourth', 'fifth'];
+console.log(JSON.stringify(arr)); // ['first', 'second', 'third', 'fourth', 'fifth']
+
+arr.push('sixth');
+console.log(JSON.stringify(arr)); // ['first', 'second', 'third', 'fourth', 'fifth', 'sixth']
+
+```
+
 <br>
 <hr>
 <br>
