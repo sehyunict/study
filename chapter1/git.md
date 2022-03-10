@@ -14,30 +14,24 @@
 	<tr>
 		<td align="center">웹 서버</td>
 		<td>
-			<ul>
-				<li>Tomcat(오픈소스)</li>
-				<li>WebLogic Server(오라클)</li>
-				<li>WebSphere Application Server(IBM)</li>
-				<li>IIS(마이크로소프트)</li>
-			</ul>
+			<li>Tomcat(오픈소스)</li>
+			<li>WebLogic Server(오라클)</li>
+			<li>WebSphere Application Server(IBM)</li>
+			<li>IIS(마이크로소프트)</li>
 		</td>
 	</tr>
 	<tr>
 		<td align="center">SSL 서버</td>
 		<td>
-			<ul>
-				<li>OpenSSL(오픈소스)</li>
-				<li>IIS(마이크로소프트)</li>
-			</ul>
+			<li>OpenSSL(오픈소스)</li>
+			<li>IIS(마이크로소프트)</li>
 		</td>
 	</tr>
 	<tr>
 		<td align="center">DNS 서버</td>
 		<td>
-			<ul>
-				<li>BIND(오픈소스)</li>
-				<li>Windows Server(마이크로소프트)</li>
-			</ul>
+			<li>BIND(오픈소스)</li>
+			<li>Windows Server(마이크로소프트)</li>
 		</td>
 	<tr>
 	<tr>
