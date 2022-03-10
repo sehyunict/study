@@ -43,6 +43,8 @@
 	
 ```
 
+<hr>
+
 #### Array.prototype.slice : 부분, 몫
 * 어떤 배열의 begin부터 end까지(end 미포함)에 대한 얕은 복사본을 새로운 배열 객체로 반환한다. <br>
 	ex) variable.slice(0,3) : 0-2번째 index의 값, 3개 <br>
@@ -66,6 +68,7 @@
 		console.log(fruits); // ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango']
 ```
 
+<hr>
 
 #### Array.prototype.splice
 * 배열의 기존 요소를 삭제 또는 교체하거나 새요소를 추가하여 배열의 내용을 변경한다. <br>
@@ -122,6 +125,8 @@
 		//['감자탕', '감자탕', '파스타', '초밥', '김밥', '족발']
 ```
 
+<hr>
+
 #### Array.prototype.join
 * 원본 배열의 모든 요소를 문자열로 변환한 후, 인수로 전달받은 문자열을 구분자로 연결하여 반환
 * 구분자는 생략 가능하며 기본 구분자는 콤마(',')이다.
@@ -133,6 +138,8 @@ let arr1 = [1, 2, 3, 4, 5];
 let copied1 = arr1.join('구분자');	 // default 구분자 : ','
 console.log(copied1); // 1, 2, 3, 4, 5
 ```
+
+<hr>
 
 #### Array.prototype.push
 * 배열 끝에 새로운 요소를 추가한다.
