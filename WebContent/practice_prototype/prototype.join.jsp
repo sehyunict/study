@@ -40,6 +40,12 @@ let copied5 = arr5.join('구분자');
 console.log(arr5);
 console.log(copied5);
 
+console.log(typeof(arr1)); // object
+console.log(typeof(arr2)); // object
+console.log(typeof(arr3)); // object
+console.log(typeof(arr4)); // object
+console.log(typeof(arr5)); // object
+
 </script>
 
 </body>
