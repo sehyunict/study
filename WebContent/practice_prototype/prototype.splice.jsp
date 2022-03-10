@@ -47,8 +47,7 @@
 		console.log(foods);
 		// ['라면', '감자탕', '파스타', '초밥', '김밥', '족발', '-1에넣기']
 		
-		console.log(foods.indexOf('-1에넣기'));
-		foods.splice(6, 1);
+		foods.splice(foods.indexOf('-1에넣기'), 1);
 		console.log(foods);
 		// ['라면', '감자탕', '파스타', '초밥', '김밥', '족발']
 		
