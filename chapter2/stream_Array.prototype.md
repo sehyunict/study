@@ -139,7 +139,9 @@ let copied1 = arr1.join('구분자');	 // default 구분자 : ','
 console.log(copied1); // 1, 2, 3, 4, 5
 ```
 
+<br>
 <hr>
+<br>
 
 ### Array.prototype.push
 * 배열 끝에 새로운 요소를 추가한다.
