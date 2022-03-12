@@ -176,9 +176,59 @@ console.log(JSON.stringify(arr)); // ['first', 'second', 'third', 'fourth', 'fif
 <br>
 
 ### Array.prototype.pop
+* 기존 배열의 마지막 요소 선택, 제거
+
+###### 예시
+```javascript
+const lastName = ['김', '박', '이', '윤', '황'];
+const poped = lastName.pop();
+console.log(poped); // '황'
+console.log(lastName); // ['김', '박', '이', '윤'];
+// 마지막 요소를 선택하여 다른 변수에 저장하고 기존 배열에서는 삭제됨
+```
+
 ### Array.prototype.unshift
+*  기존 배열의 첫 idx에 새로운 요소를 추가 함
+*  배열 형태를 가진 객체가 **호출**하거나 **객체**에 적용가능
+*  length 속성을 가지지 않고, <br> 대신 마지막 요소를 0부터 시작하는 순차적 idx로만 나타내는 객체에서는 의도한 것과 다르게 적용될 수 있다.
+
+###### 예시
+```javascript
+const num = [1, 2, 3];
+num.unshift(4, 5);
+
+console.log(num); // [4, 5, 1, 2, 3];
+```
+
 ### Array.prototype.shift
+* 배열의 첫 번째 요소를 제거하고, 제거된 요소를 반환한다.
+* 길이를 변하게 한다
+* 빈 배열의 경우 undefined 반환
+
+###### 예시
+```javascript
+const arr = [1, 2, 3, 4, 5];
+const firstElement = arr.shift();
+console.log(firstElement); // 1
+console.log(arr); // [2, 3, 4, 5];
+```
+
+```javascript
+// while문에서의 사용
+const arr2 = [1, 2, 3, 4, 5];
+while(i=arr2.shift() !== undefined) {
+	console.log(i);
+}
+```
+
 ### Array.prototype.fill
+* 배열의 시작인덱스부터 끝 인덱스 이전까지 정적인 값 하나로 채운다
+
+###### 문법
+```javascript
+array.fill(채울 값, 시작 인덱스, 마지막 인덱스);
+// 마지막 인덱스 이전 값까지 이므로, +1 값을 생각하자 
+```
 
 <br>
 
