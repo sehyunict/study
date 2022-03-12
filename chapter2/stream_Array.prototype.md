@@ -200,6 +200,10 @@ num.unshift(4, 5);
 console.log(num); // [4, 5, 1, 2, 3];
 ```
 
+<br>
+<hr>
+<br>
+
 ### Array.prototype.shift
 * 배열의 첫 번째 요소를 제거하고, 제거된 요소를 반환한다.
 * 길이를 변하게 한다
@@ -221,6 +225,10 @@ while(i=arr2.shift() !== undefined) {
 }
 ```
 
+<br>
+<hr>
+<br>
+
 ### Array.prototype.fill
 * 배열의 시작인덱스부터 끝 인덱스 이전까지 정적인 값 하나로 채운다
 
@@ -230,6 +238,8 @@ array.fill(채울 값, 시작 인덱스, 마지막 인덱스);
 // 마지막 인덱스 이전 값까지 이므로, +1 값을 생각하자 
 ```
 
+<br>
+<hr>
 <br>
 
 ### Array.prototype.forEach
