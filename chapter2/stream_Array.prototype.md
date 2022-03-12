@@ -240,12 +240,83 @@ array.fill(채울 값, 시작 인덱스, 마지막 인덱스);
 
 <br>
 <hr>
+<hr>
 <br>
 
 ### Array.prototype.forEach
+* 배열의 각 요소를 함수로 모두 돌림.
+
+###### 문법
+```javascript
+forEach(배열, function(idx, 요소){});
+(요소).forEach(배열, function(idx, 요소){});
+```
+###### 예시
+```javascript
+const array1 = ['a', 'b', 'c', 'd', 'e'];
+
+ array1.forEach(function(item, i){
+            console.log('인덱스: ' + i + '요소: '+ item);
+        });
+/*
+ "인덱스: 0요소: a"
+ "인덱스: 1요소: b"
+ "인덱스: 2요소: c"
+ "인덱스: 3요소: d"
+ "인덱스: 4요소: e"
+
+*/
+
+```
+
+###### `for`반복문을 `forEach()`로 바꾸기
+```javascript
+const items = ['item1', 'item2', 'item3'];
+cosnt copy = [];
+
+// for
+for (let i = 0; i < items.length; i++ ) {
+	copy.push(items[i]);
+}
+
+// forEach();
+items.forEach(function(item){
+	copy.push(item);
+})
+
+```
+
+[좀 더 공부하기. 할 링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+
+
 ### Array.prototype.find
+
+<br>
+<hr>
+<br>
+
 ### Array.prototype.filter
+
+<br>
+<hr>
+<br>
+
 ### Array.prototype.map
+
+<br>
+<hr>
+<br>
+
 ### Array.prototype.some
+
+<br>
+<hr>
+<br>
+
 ### Array.prototype.every
+
+<br>
+<hr>
+<br>
+
 ### Array.prototype.reduce
