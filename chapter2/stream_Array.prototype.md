@@ -290,6 +290,22 @@ items.forEach(function(item){
 
 
 ### Array.prototype.find
+* 주어진 판별 함수를 만족하는 첫 번째 요소의 값을 반환.
+
+###### 예시
+```javascript
+const array1 = [5, 12, 8, 130, 44];
+const found = array1.find(element => element > 10);
+console.log(found);
+```
+
+###### 연습
+```javascript
+const array = ['사과', '바나나', '애플', '사과', '바나나', '오렌지'];
+const found2 = array.find(element => element.indexOf('사과'));
+
+console.log(found2); // "바나나"
+```
 
 <br>
 <hr>
