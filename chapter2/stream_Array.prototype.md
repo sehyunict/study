@@ -328,7 +328,7 @@ const result = fruits.filter(word => word.length > 6); // ['pineapple', 'apricot
 console.log(result);
 
 const includes = fruits.filter(word => word.includes('apple'));
-console.log(includeE);
+console.log(includes);
 
 ```
 
