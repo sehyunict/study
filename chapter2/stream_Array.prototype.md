@@ -9,6 +9,7 @@
 .indexOf(찾고자 하는 값);
 ```
 
+###### [연습](https://github.com/SojeongYoony/study-1/blob/main/WebContent/practice_prototype/prototype.indexOf.jsp)
 ```javascript
 /* Array.prototype.indexOf */
 let array = [1, 2, 3, 4, 5];
@@ -59,7 +60,10 @@ console.log(staff.indexOf('sojeong'));  // 3
 // (배열의 마지막 인덱스 end는 미포함이므로 보고싶은 인덱스의 다음 자리 수를 생각 할 것)
 ```	
 	
-* 원본 배열은 바뀌지 않는다.
+* 원본 배열은 바뀌지 않는다. <br>
+
+###### [연습](https://github.com/SojeongYoony/study-1/blob/main/WebContent/practice_prototype/prototype.slice.jsp)
+
 ```javascript
 let fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
 let citrus = fruits.slice(1,3);
@@ -87,8 +91,9 @@ console.log(fruits); // ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango']
 	- 0 또는 음수 : 삭제하지 않는다. <br>
 (3) 배열에 추가할 요소 : 생략하면 추가되지 않는다. <br>
 
+###### [연습](https://github.com/SojeongYoony/study-1/blob/main/WebContent/practice_prototype/prototype.splice.jsp)
+
 ```javascript
-//연습
 	let foods = ['라면', '초밥', '김밥', '족발', '마라탕'];
 	console.log(foods); 
 	// ['라면', '초밥', '김밥', '족발', '마라탕']
@@ -159,7 +164,7 @@ console.log(typeof(copied5) == 'string' ? 'true' : 'false'); // true
 * 배열 끝에 새로운 요소를 추가한다.
 	- 말 그대로 배열 마지막 index에다 push해 넣음.
 
-###### 예시
+###### [예시](https://github.com/SojeongYoony/study-1/blob/main/WebContent/practice_prototype/prototype.push.jsp)
 
 ```javascript
 	
@@ -324,7 +329,7 @@ console.log(found2); // "바나나"
 	console.log(result);
 ```
 
-###### 연습
+###### [연습](https://github.com/SojeongYoony/study-1/blob/main/WebContent/practice_prototype/prototype.filter.jsp)
 ```javascript
 const fruits = ['apple', 'banana', 'pineapple', 'apricot', 'kiwi'];
 const result = fruits.filter(word => word.length > 6); // ['pineapple', 'apricot'] 
