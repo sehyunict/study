@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<h1>Filter</h1>
+	<h1>protype.filter</h1>
 	
 <script>
 
@@ -68,20 +68,24 @@ console.log(staffs);
 
 
 console.log('------check-------');
- let temp = [];
-for (let i = 0; i < staffs.length; i ++) {
-	console.log(staffs[i].name);
-	temp = staffs[i].name.indexOf('temp'+i);
-	console.log(name.indexOf('temp' + i));
-	console.log(temp);
-}
-console.log('--- temp 확인하기. ---')
 
 for (let i = 0; i <= 7; i ++) {
 	let tempStaffs = new Staff('temp' + i, i, '한국');  
 	staffs.push(tempStaffs);
 }
 
+let temp = [];
+for (let i = 0; i < staffs.length; i ++) {
+	console.log(staffs[i].name);
+	if (staffs[i].name.includes('temp')) {
+		temp.push(staffs[i]);
+	}
+}
+console.log('--- temp 확인하기. ---');
+console.log(temp);
+
+
+console.log('---- slice -----');
 let tempStaff = staffs.slice(3, staffs.length);
 console.log(tempStaff);
 console.log(staffs);

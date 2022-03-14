@@ -13,6 +13,9 @@
 <script>
 
 const fruits = ['apple', 'banana', 'apricot', 'kiwi', 'cranberry', 'dragonfruit', 2, 5, 6];
+let test = fruits.every('a');
+console.log(test);
+
 
 </script>
 
