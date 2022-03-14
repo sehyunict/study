@@ -66,9 +66,16 @@ console.log(staffs[0]);
 staffs.push(yoon);
 console.log(staffs);
 
+
+console.log('------check-------');
+ let temp = [];
 for (let i = 0; i < staffs.length; i ++) {
 	console.log(staffs[i].name);
+	temp = staffs[i].name.indexOf('temp'+i);
+	console.log(name.indexOf('temp' + i));
+	console.log(temp);
 }
+console.log('--- temp 확인하기. ---')
 
 for (let i = 0; i <= 7; i ++) {
 	let tempStaffs = new Staff('temp' + i, i, '한국');  
