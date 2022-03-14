@@ -312,6 +312,25 @@ console.log(found2); // "바나나"
 <br>
 
 ### Array.prototype.filter
+* 함수의 테스트를 통과하는 모든 요소를 모아 새로운 배열로 반환.
+
+###### 예시
+```javascript
+	const fruits = ['apple', 'banana', 'pineapple', 'apricot', 'kiwi'];
+	const result = words.filter(word => word.length > 6);
+	console.log(result);
+```
+
+###### 연습
+```javascript
+const fruits = ['apple', 'banana', 'pineapple', 'apricot', 'kiwi'];
+const result = fruits.filter(word => word.length > 6); // ['pineapple', 'apricot'] 
+console.log(result);
+
+const includes = fruits.filter(word => word.includes('apple'));
+console.log(includeE);
+
+```
 
 <br>
 <hr>
