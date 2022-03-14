@@ -21,6 +21,11 @@
 	
 	// 연습
 	arr.splice(arr.indexOf('second'), 0, '1.5');
+	arr.push('7');
+	console.log(JSON.stringify(arr));
+	
+	const slice = arr.slice(arr.indexOf('second'), arr.length);
+	arr.push(slice);
 	console.log(JSON.stringify(arr));
 
 </script>
