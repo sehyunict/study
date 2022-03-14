@@ -288,6 +288,9 @@ items.forEach(function(item){
 
 [좀 더 공부하기. 할 링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
+<br>
+<hr>
+<br>
 
 ### Array.prototype.find
 * 주어진 판별 함수를 만족하는 첫 번째 요소의 값을 반환.
@@ -337,21 +340,64 @@ console.log(includes);
 <br>
 
 ### Array.prototype.map
+* 배열 내의 모든 요소 각각에 대하여 주어진 함수를 호출한 결과를 모아 새로운 배열을 반환한다.
+
+###### 예시
+``` javascript
+const array1 = [1, 4, 9, 16];
+
+// pass a function to map
+const map1 = array1.map(x => x * 2);
+
+console.log(map1);
+// expected output: Array [2, 8, 18, 32]
+
+```
+
 
 <br>
 <hr>
 <br>
 
 ### Array.prototype.some
+* 배열 안의 어떤 요소라도 주어진 판별 함수를 통과하는지 테스트 한다.
+* 빈 배열에서 호출하면 무조건 false 반환.
 
 <br>
 <hr>
 <br>
 
 ### Array.prototype.every
+* 배열 안의 모든 요소가 주어진 판별 함수를 통과하는지 테스트 한다.
+* Boolean 값을 반환한다.(빈 배열에서 호출하면 무조건 true를 반환)
+
+###### 문법
+```javascript
+
+// 화살표 함수
+every((element) => { ... } )
+every((element, index) => { ... } )
+every((element, index, array) => { ... } )
+
+// 콜백 함수
+every(callbackFn)
+every(callbackFn, thisArg)
+
+// 인라인 콜백 함수
+every(function callbackFn(element) { ... })
+every(function callbackFn(element, index) { ... })
+every(function callbackFn(element, index, array){ ... })
+every(function callbackFn(element, index, array) { ... }, thisArg)
+```
+
+###### [연습]()
+```javascript
+
+```
 
 <br>
 <hr>
 <br>
 
 ### Array.prototype.reduce
+* 배열의 각 요소에 대해 주어진 리듀서(reducer) 함수를 실행하고, 하나의 결과값을 반환합니다.
