@@ -56,6 +56,7 @@ console.log(typeof(list)); // string
 console.log(typeof(list2)); // string
 
 // 수정 test for merge
+// test update
 
 </script>
 
