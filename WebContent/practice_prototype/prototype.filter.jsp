@@ -45,11 +45,11 @@ function Staff(name, age, nationality) {
 	this.nationality = nationality;
 }
 
-console.log('-----');
 
 const jimin = new Staff('지민', 29, '한국');
 const yoon = new Staff('소정', 29, '한국');
 
+console.log('--- 지민 소정 값 ---');
 console.log(jimin);
 console.log(yoon);
 
@@ -81,6 +81,14 @@ for (let i = 0; i < staffs.length; i ++) {
 		temp.push(staffs[i]);
 	}
 }
+
+
+console.log('--- filter써보기 ---');
+let isTrue = staffs.filter( element => element.name === '지민' && element.age === 29 ); // false
+console.log(typeof(isTrue));
+console.log( !isTrue ); // false
+
+
 console.log('--- temp 확인하기. ---');
 console.log(temp);
 
