@@ -9,6 +9,7 @@
 - Fork, Pull Request
 - Pull, Push, Commit, Merge, Branch
 - Issue, Projects, Tag, Release
+- .gitignore
 
 <br>
 
