@@ -19,7 +19,7 @@
 
 <br>
 
-#### Array prototype ( Stream )
+#### 자바스크립트 Array prototype ( Stream )
 
 - Array.prototype.indexOf
 - Array.prototype.slice
@@ -40,3 +40,8 @@
 - Array.prototype.some
 - Array.prototype.every
 - Array.prototype.reduce
+
+### 자바 Array 클래스 ( java.util.Arrays )
+- Array.copyOf
+- Array.fill
+- Array.sort
