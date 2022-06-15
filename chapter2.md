@@ -41,7 +41,7 @@
 - Array.prototype.every
 - Array.prototype.reduce
 
-### 자바 Array 클래스 ( java.util.Arrays )
+#### 자바 Array 클래스 ( java.util.Arrays )
 - Array.copyOf
 - Array.fill
 - Array.sort
