@@ -27,3 +27,4 @@
 - chapter1을 작성하기 위한 Branch를 생성해보세요.
 - 생성한 Branch에서 문서를 작성하고 merge를 통해 병합해 보세요.
 - 생성한 Branch에서 문서를 작성하고 pull request를 통해 병합해 보세요.
+- 이번 chapter에서 공부한 내용을 바탕으로 앞으로의 과제를 수행 해주세요.
