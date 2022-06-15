@@ -6,6 +6,11 @@
 - 메모리 사용 영역 `java`
 - wrapper class `java`
 
+``` javascript
+var test = 1
+var test2 = 2
+```
+
 <br>
 
 #### 변수
