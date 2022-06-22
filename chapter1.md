@@ -12,7 +12,9 @@
 - 깃허브 사용방법
 - Fork, Pull Request
 - Pull, Push, Commit, Merge, Branch
+- Reset, Revert, Revase
 - Issue, Projects, Tag, Release
+- Branch와 Fork의 차이
 
 <br>
 
